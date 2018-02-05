@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+workspace 'LearningRecord.xcworkspace'
+project 'LearningRecord/LearningRecord.xcodeproj'
+
+platform :ios, '9.0'
+target 'LearningRecord' do
+project 'LearningRecord.xcodeproj'
+	use_frameworks!
+
+	pod 'AFNetworking', '~>3.1.0'
+    
+
+end
