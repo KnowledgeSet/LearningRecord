@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FDAF1E16E5EB7FF3F262EEA /* Pods_LearningRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */; };
+		F698E16B20295F5E00B35090 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F698E16A20295F5E00B35090 /* README.md */; };
 		F6B885462028372E00FCC799 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885452028372E00FCC799 /* AppDelegate.m */; };
 		F6B885492028372E00FCC799 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885482028372E00FCC799 /* ViewController.m */; };
 		F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B8854A2028372E00FCC799 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B371D27FBFACB1E752E0A /* Pods-LearningRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.release.xcconfig"; sourceTree = "<group>"; };
 		F5F12568C26E6573C16FEC3F /* Pods-LearningRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		F698E16A20295F5E00B35090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F6B885412028372E00FCC799 /* LearningRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B885442028372E00FCC799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6B885452028372E00FCC799 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		F6B885382028372E00FCC799 = {
 			isa = PBXGroup;
 			children = (
+				F698E16A20295F5E00B35090 /* README.md */,
 				F6B885432028372E00FCC799 /* LearningRecord */,
 				F6B8855C2028372E00FCC799 /* LearningRecordTests */,
 				F6B885672028372F00FCC799 /* LearningRecordUITests */,
@@ -267,6 +270,7 @@
 			files = (
 				F6B885512028372E00FCC799 /* LaunchScreen.storyboard in Resources */,
 				F6B8854E2028372E00FCC799 /* Assets.xcassets in Resources */,
+				F698E16B20295F5E00B35090 /* README.md in Resources */,
 				F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
