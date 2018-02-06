@@ -6,13 +6,13 @@
 //  Copyright © 2018年 by_r. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BYViewController.h"
 
-@interface ViewController ()
+@interface BYViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

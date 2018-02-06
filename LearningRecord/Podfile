@@ -3,11 +3,12 @@ workspace 'LearningRecord.xcworkspace'
 project 'LearningRecord/LearningRecord.xcodeproj'
 
 platform :ios, '9.0'
+inhibit_all_warnings! # 消除警告
 target 'LearningRecord' do
 project 'LearningRecord.xcodeproj'
 	use_frameworks!
 
 	pod 'AFNetworking', '~>3.1.0'
-    
+    pod 'Masonry', '~>1.1.0'
 
 end
