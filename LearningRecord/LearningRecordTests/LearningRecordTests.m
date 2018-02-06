@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "BYLinkedList.h"
 
 @interface LearningRecordTests : XCTestCase
 
@@ -27,6 +28,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    BYLinkedList *list = [BYLinkedList new];
+    XCTAssertTrue(list.isEmpty);
+    [list appendToTail:@"Linked"];
+    [list appendToTail:@"list"];
+    [list printAllNodes];
+    XCTAssert(list.first);
+    [list removeAll];
+    XCTAssert(list.last == nil);
 }
 
 - (void)testPerformanceExample {

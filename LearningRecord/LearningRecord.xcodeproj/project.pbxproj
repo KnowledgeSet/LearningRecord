@@ -11,6 +11,8 @@
 		F698E16B20295F5E00B35090 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F698E16A20295F5E00B35090 /* README.md */; };
 		F698E1722029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
 		F698E1732029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
+		F698E1772029A90000B35090 /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1762029A90000B35090 /* BYTabBarController.m */; };
+		F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1792029A92A00B35090 /* BYNavigationController.m */; };
 		F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885452028372E00FCC799 /* BYAppDelegate.m */; };
 		F6B885492028372E00FCC799 /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885482028372E00FCC799 /* BYViewController.m */; };
 		F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B8854A2028372E00FCC799 /* Main.storyboard */; };
@@ -45,6 +47,10 @@
 		F698E16A20295F5E00B35090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F698E1702029824800B35090 /* BYLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYLinkedList.h; sourceTree = "<group>"; };
 		F698E1712029824800B35090 /* BYLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYLinkedList.m; sourceTree = "<group>"; };
+		F698E1752029A90000B35090 /* BYTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTabBarController.h; sourceTree = "<group>"; };
+		F698E1762029A90000B35090 /* BYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
+		F698E1782029A92A00B35090 /* BYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
+		F698E1792029A92A00B35090 /* BYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYNavigationController.m; sourceTree = "<group>"; };
 		F6B885412028372E00FCC799 /* LearningRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B885442028372E00FCC799 /* BYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAppDelegate.h; sourceTree = "<group>"; };
 		F6B885452028372E00FCC799 /* BYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 		F698E16C2029809800B35090 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				F698E1742029A8BC00B35090 /* base */,
 				F6B885442028372E00FCC799 /* BYAppDelegate.h */,
 				F6B885452028372E00FCC799 /* BYAppDelegate.m */,
 				F6B885472028372E00FCC799 /* BYViewController.h */,
@@ -145,6 +152,17 @@
 				F698E1712029824800B35090 /* BYLinkedList.m */,
 			);
 			path = linked_list;
+			sourceTree = "<group>";
+		};
+		F698E1742029A8BC00B35090 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F698E1752029A90000B35090 /* BYTabBarController.h */,
+				F698E1762029A90000B35090 /* BYTabBarController.m */,
+				F698E1782029A92A00B35090 /* BYNavigationController.h */,
+				F698E1792029A92A00B35090 /* BYNavigationController.m */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 		F6B885382028372E00FCC799 = {
@@ -392,8 +410,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B885492028372E00FCC799 /* BYViewController.m in Sources */,
+				F698E1772029A90000B35090 /* BYTabBarController.m in Sources */,
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
+				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
