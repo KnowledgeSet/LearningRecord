@@ -3,6 +3,7 @@ workspace 'LearningRecord.xcworkspace'
 project 'LearningRecord/LearningRecord.xcodeproj'
 
 platform :ios, '9.0'
+inhibit_all_warnings! # 消除警告
 target 'LearningRecord' do
 project 'LearningRecord.xcodeproj'
 	use_frameworks!

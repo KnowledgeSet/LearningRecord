@@ -6,13 +6,13 @@
 //  Copyright © 2018年 by_r. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "BYAppDelegate.h"
 
-@interface AppDelegate ()
+@interface BYAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation BYAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
