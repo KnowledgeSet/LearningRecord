@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FDAF1E16E5EB7FF3F262EEA /* Pods_LearningRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */; };
+		F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */; };
 		F698E16B20295F5E00B35090 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F698E16A20295F5E00B35090 /* README.md */; };
 		F698E1722029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
 		F698E1732029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
@@ -46,6 +47,8 @@
 		BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B371D27FBFACB1E752E0A /* Pods-LearningRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.release.xcconfig"; sourceTree = "<group>"; };
 		F5F12568C26E6573C16FEC3F /* Pods-LearningRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		F67978CD202A9C72003EFAD6 /* BYDataStructVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDataStructVC.h; sourceTree = "<group>"; };
+		F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDataStructVC.m; sourceTree = "<group>"; };
 		F698E16A20295F5E00B35090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F698E1702029824800B35090 /* BYLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYLinkedList.h; sourceTree = "<group>"; };
 		F698E1712029824800B35090 /* BYLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYLinkedList.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 		F698E16E202981A500B35090 /* data_struct */ = {
 			isa = PBXGroup;
 			children = (
+				F67978CD202A9C72003EFAD6 /* BYDataStructVC.h */,
+				F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */,
 				F698E16F2029821500B35090 /* linked_list */,
 			);
 			path = data_struct;
@@ -426,6 +431,7 @@
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
+				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
 				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

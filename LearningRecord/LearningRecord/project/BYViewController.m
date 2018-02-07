@@ -30,7 +30,7 @@ static NSString *const kDesc = @"desc";
     NSString *clsString = [dict objectForKey:kCls];
     if (clsString.length) {
         Class cls = NSClassFromString(clsString);
-        if (cls && [cls isKindOfClass:[UIViewController class]]) {
+        if (cls) {
             UIViewController *clsVC = [cls new];
             [self.navigationController pushViewController:clsVC animated:YES];
         }
@@ -54,8 +54,8 @@ static NSString *const kDesc = @"desc";
     if (!_dataArray) {
         _dataArray = [NSArray arrayWithObjects:
                       @{
-                        kCls : @"",
-                        kDesc : @"",
+                        kCls : @"BYDataStructVC",
+                        kDesc : @"data struct test",
                         },
                       @{
                         kCls : @"",

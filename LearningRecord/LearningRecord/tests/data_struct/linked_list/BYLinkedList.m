@@ -178,13 +178,15 @@
         return;
     }
     BYLinkedListNode *node = _head;
-    NSLog(@"\nstart printing all nodes:");
+    NSMutableString *logStr = [NSMutableString stringWithString:@"\nstart printing all nodes:\n"];
     for (NSInteger i = 0; i < self.count; i ++) {
         if (node == nil) {
             break;
         }
-        printf("[%@]%@->%@",@(i),node.value,node);
+        NSString *str = [NSString stringWithFormat:@"[%@]->%@->%@\n",@(i),node.value,node];
+        [logStr appendString:str];
         node = node.next;
     }
+    NSLog(@"%@", logStr);
 }
 @end
