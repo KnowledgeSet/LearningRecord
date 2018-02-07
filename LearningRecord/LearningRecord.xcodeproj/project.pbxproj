@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5FDAF1E16E5EB7FF3F262EEA /* Pods_LearningRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */; };
+		F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */; };
+		F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978D2202AA5FE003EFAD6 /* BYStack.m */; };
+		F67978D6202AA6E1003EFAD6 /* data_struct.md in Resources */ = {isa = PBXBuildFile; fileRef = F67978D5202AA6E1003EFAD6 /* data_struct.md */; };
+		F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978D9202AADD8003EFAD6 /* BYQueue.m */; };
 		F698E16B20295F5E00B35090 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F698E16A20295F5E00B35090 /* README.md */; };
 		F698E1722029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
 		F698E1732029824800B35090 /* BYLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1712029824800B35090 /* BYLinkedList.m */; };
 		F698E1772029A90000B35090 /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1762029A90000B35090 /* BYTabBarController.m */; };
 		F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1792029A92A00B35090 /* BYNavigationController.m */; };
+		F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17C2029AFBA00B35090 /* BYBaseViewController.m */; };
+		F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17F2029AFFB00B35090 /* BYTableViewController.m */; };
 		F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885452028372E00FCC799 /* BYAppDelegate.m */; };
 		F6B885492028372E00FCC799 /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885482028372E00FCC799 /* BYViewController.m */; };
 		F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B8854A2028372E00FCC799 /* Main.storyboard */; };
@@ -44,6 +50,13 @@
 		BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B371D27FBFACB1E752E0A /* Pods-LearningRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.release.xcconfig"; sourceTree = "<group>"; };
 		F5F12568C26E6573C16FEC3F /* Pods-LearningRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		F67978CD202A9C72003EFAD6 /* BYDataStructVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDataStructVC.h; sourceTree = "<group>"; };
+		F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDataStructVC.m; sourceTree = "<group>"; };
+		F67978D1202AA5FE003EFAD6 /* BYStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYStack.h; sourceTree = "<group>"; };
+		F67978D2202AA5FE003EFAD6 /* BYStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYStack.m; sourceTree = "<group>"; };
+		F67978D5202AA6E1003EFAD6 /* data_struct.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = data_struct.md; sourceTree = "<group>"; };
+		F67978D8202AADD8003EFAD6 /* BYQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYQueue.h; sourceTree = "<group>"; };
+		F67978D9202AADD8003EFAD6 /* BYQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYQueue.m; sourceTree = "<group>"; };
 		F698E16A20295F5E00B35090 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F698E1702029824800B35090 /* BYLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYLinkedList.h; sourceTree = "<group>"; };
 		F698E1712029824800B35090 /* BYLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYLinkedList.m; sourceTree = "<group>"; };
@@ -51,6 +64,10 @@
 		F698E1762029A90000B35090 /* BYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
 		F698E1782029A92A00B35090 /* BYNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
 		F698E1792029A92A00B35090 /* BYNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYNavigationController.m; sourceTree = "<group>"; };
+		F698E17B2029AFBA00B35090 /* BYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBaseViewController.h; sourceTree = "<group>"; };
+		F698E17C2029AFBA00B35090 /* BYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBaseViewController.m; sourceTree = "<group>"; };
+		F698E17E2029AFFB00B35090 /* BYTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTableViewController.h; sourceTree = "<group>"; };
+		F698E17F2029AFFB00B35090 /* BYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTableViewController.m; sourceTree = "<group>"; };
 		F6B885412028372E00FCC799 /* LearningRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B885442028372E00FCC799 /* BYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAppDelegate.h; sourceTree = "<group>"; };
 		F6B885452028372E00FCC799 /* BYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +129,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F67978D0202AA5BD003EFAD6 /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				F67978D1202AA5FE003EFAD6 /* BYStack.h */,
+				F67978D2202AA5FE003EFAD6 /* BYStack.m */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
+		F67978D4202AA6E1003EFAD6 /* readMe */ = {
+			isa = PBXGroup;
+			children = (
+				F67978D5202AA6E1003EFAD6 /* data_struct.md */,
+			);
+			name = readMe;
+			path = ../readMe;
+			sourceTree = "<group>";
+		};
+		F67978D7202AADA6003EFAD6 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				F67978D8202AADD8003EFAD6 /* BYQueue.h */,
+				F67978D9202AADD8003EFAD6 /* BYQueue.m */,
+			);
+			path = queue;
+			sourceTree = "<group>";
+		};
 		F698E16C2029809800B35090 /* project */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +184,10 @@
 		F698E16E202981A500B35090 /* data_struct */ = {
 			isa = PBXGroup;
 			children = (
+				F67978CD202A9C72003EFAD6 /* BYDataStructVC.h */,
+				F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */,
+				F67978D7202AADA6003EFAD6 /* queue */,
+				F67978D0202AA5BD003EFAD6 /* stack */,
 				F698E16F2029821500B35090 /* linked_list */,
 			);
 			path = data_struct;
@@ -161,6 +209,10 @@
 				F698E1762029A90000B35090 /* BYTabBarController.m */,
 				F698E1782029A92A00B35090 /* BYNavigationController.h */,
 				F698E1792029A92A00B35090 /* BYNavigationController.m */,
+				F698E17B2029AFBA00B35090 /* BYBaseViewController.h */,
+				F698E17C2029AFBA00B35090 /* BYBaseViewController.m */,
+				F698E17E2029AFFB00B35090 /* BYTableViewController.h */,
+				F698E17F2029AFFB00B35090 /* BYTableViewController.m */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -169,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				F698E16A20295F5E00B35090 /* README.md */,
+				F67978D4202AA6E1003EFAD6 /* readMe */,
 				F6B885432028372E00FCC799 /* LearningRecord */,
 				F6B8855C2028372E00FCC799 /* LearningRecordTests */,
 				F6B885672028372F00FCC799 /* LearningRecordUITests */,
@@ -327,6 +380,7 @@
 			files = (
 				F6B885512028372E00FCC799 /* LaunchScreen.storyboard in Resources */,
 				F6B8854E2028372E00FCC799 /* Assets.xcassets in Resources */,
+				F67978D6202AA6E1003EFAD6 /* data_struct.md in Resources */,
 				F698E16B20295F5E00B35090 /* README.md in Resources */,
 				F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */,
 			);
@@ -412,9 +466,14 @@
 				F6B885492028372E00FCC799 /* BYViewController.m in Sources */,
 				F698E1772029A90000B35090 /* BYTabBarController.m in Sources */,
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
+				F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */,
+				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
+				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
+				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
+				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
