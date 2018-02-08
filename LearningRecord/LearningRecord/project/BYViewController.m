@@ -58,8 +58,8 @@ static NSString *const kDesc = @"desc";
                         kDesc : @"data struct test",
                         },
                       @{
-                        kCls : @"",
-                        kDesc : @""
+                        kCls : @"BYRACViewController",
+                        kDesc : @"rac test"
                         },
                       nil];
     }
