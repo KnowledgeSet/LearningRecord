@@ -27,6 +27,7 @@
 		F6B885542028372E00FCC799 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885532028372E00FCC799 /* main.m */; };
 		F6B8855E2028372E00FCC799 /* LearningRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B8855D2028372E00FCC799 /* LearningRecordTests.m */; };
 		F6B885692028372F00FCC799 /* LearningRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885682028372F00FCC799 /* LearningRecordUITests.m */; };
+		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		F6B885642028372F00FCC799 /* LearningRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B885682028372F00FCC799 /* LearningRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningRecordUITests.m; sourceTree = "<group>"; };
 		F6B8856A2028372F00FCC799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CC010A202C3F4D00A12942 /* BYRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewController.h; sourceTree = "<group>"; };
+		F6CC010B202C3F4D00A12942 /* BYRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,7 @@
 		F698E16D2029819700B35090 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F6CC0109202C3EFB00A12942 /* rac_test */,
 				F698E16E202981A500B35090 /* data_struct */,
 			);
 			path = tests;
@@ -266,6 +270,15 @@
 				F6B8856A2028372F00FCC799 /* Info.plist */,
 			);
 			path = LearningRecordUITests;
+			sourceTree = "<group>";
+		};
+		F6CC0109202C3EFB00A12942 /* rac_test */ = {
+			isa = PBXGroup;
+			children = (
+				F6CC010A202C3F4D00A12942 /* BYRACViewController.h */,
+				F6CC010B202C3F4D00A12942 /* BYRACViewController.m */,
+			);
+			path = rac_test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,11 +443,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,6 +482,7 @@
 				F698E1772029A90000B35090 /* BYTabBarController.m in Sources */,
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
 				F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */,
+				F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */,
 				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
