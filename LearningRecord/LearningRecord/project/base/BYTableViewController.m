@@ -59,7 +59,9 @@
     }
     NSArray *components = [[self.dataArray objectAtIndex:indexPath.row] componentsSeparatedByString:@","];
     cell.textLabel.text = [components firstObject];
+    cell.textLabel.numberOfLines = 0;
     cell.detailTextLabel.text = [components lastObject];
+    cell.detailTextLabel.numberOfLines = 0;
     return cell;
 }
 

@@ -28,6 +28,8 @@
 		F6B8855E2028372E00FCC799 /* LearningRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B8855D2028372E00FCC799 /* LearningRecordTests.m */; };
 		F6B885692028372F00FCC799 /* LearningRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885682028372F00FCC799 /* LearningRecordUITests.m */; };
 		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
+		F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D339203FC07B00B46149 /* BYRACTestVC.m */; };
+		F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D33B203FC09600B46149 /* RACTest.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,9 @@
 		F6B8856A2028372F00FCC799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6CC010A202C3F4D00A12942 /* BYRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewController.h; sourceTree = "<group>"; };
 		F6CC010B202C3F4D00A12942 /* BYRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACViewController.m; sourceTree = "<group>"; };
+		F6D7D338203FC07B00B46149 /* BYRACTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACTestVC.h; sourceTree = "<group>"; };
+		F6D7D339203FC07B00B46149 /* BYRACTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACTestVC.m; sourceTree = "<group>"; };
+		F6D7D33B203FC09600B46149 /* RACTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RACTest.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +282,9 @@
 			children = (
 				F6CC010A202C3F4D00A12942 /* BYRACViewController.h */,
 				F6CC010B202C3F4D00A12942 /* BYRACViewController.m */,
+				F6D7D338203FC07B00B46149 /* BYRACTestVC.h */,
+				F6D7D339203FC07B00B46149 /* BYRACTestVC.m */,
+				F6D7D33B203FC09600B46149 /* RACTest.storyboard */,
 			);
 			path = rac_test;
 			sourceTree = "<group>";
@@ -396,6 +404,7 @@
 				F67978D6202AA6E1003EFAD6 /* data_struct.md in Resources */,
 				F698E16B20295F5E00B35090 /* README.md in Resources */,
 				F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */,
+				F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +497,7 @@
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
+				F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */,
 				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
 				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
 			);
