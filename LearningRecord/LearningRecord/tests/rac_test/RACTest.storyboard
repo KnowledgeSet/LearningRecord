@@ -74,5 +74,46 @@
             </objects>
             <point key="canvasLocation" x="-522.39999999999998" y="123.68815592203899"/>
         </scene>
+        <!--LoginVC-->
+        <scene sceneID="Xfc-S3-Yx1">
+            <objects>
+                <viewController storyboardIdentifier="login" id="6fF-ug-TYE" customClass="BYRACLoginVC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sXz-Rx-150">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uzL-F4-Wd7">
+                                <rect key="frame" x="35" y="85" width="305" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oZ-5A-0PG">
+                                <rect key="frame" x="35" y="140" width="305" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5V-Ia-wG1">
+                                <rect key="frame" x="164" y="225" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="hkW-B6-odi"/>
+                    </view>
+                    <connections>
+                        <outlet property="accountTextField" destination="uzL-F4-Wd7" id="Wae-07-Ml0"/>
+                        <outlet property="loginButton" destination="t5V-Ia-wG1" id="usd-8l-L4Y"/>
+                        <outlet property="passwordTextField" destination="1oZ-5A-0PG" id="4Ez-Xu-Mob"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6aE-iZ-TzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181.59999999999999" y="118.29085457271366"/>
+        </scene>
     </scenes>
 </document>

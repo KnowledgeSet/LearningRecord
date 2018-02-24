@@ -11,6 +11,18 @@
 static NSString *const kCls = @"cls";
 static NSString *const kDesc = @"desc";
 
+@interface LinkGrammar : NSObject
+- (LinkGrammar *(^)(NSString *str, void(^)(NSString *str2)))play;
+@end
+@implementation LinkGrammar
+- (LinkGrammar *(^)(NSString *, void (^)(NSString *)))play {
+    return ^(NSString *str, void(^block)(NSString *str2)) {
+        !block ?: block(str);
+        return self;
+    };
+}
+@end
+
 @interface BYViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray   *dataArray;
 @end
@@ -20,6 +32,15 @@ static NSString *const kDesc = @"desc";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    LinkGrammar *link = [[LinkGrammar alloc] init];
+    link.play(@"aaa", ^(NSString *str) {
+        NSLog(@"%@", str);
+    }).play(@"bbb", ^(NSString *str) {
+        NSLog(@" %@", str);
+    });
+    void * obj = (__bridge void *)(link);
+    NSLog(@"%@, %@", obj, link);
 }
 
 #pragma mark - delegate

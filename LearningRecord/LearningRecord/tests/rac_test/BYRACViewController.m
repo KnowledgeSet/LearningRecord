@@ -42,10 +42,15 @@
                       NSStringFromSelector(@selector(testRACCommand)),
                       [NSStringFromSelector(@selector(testBind)) stringByAppendingString:@",方法绑定"],
                       [NSStringFromSelector(@selector(testMap)) stringByAppendingString:@",映射方法"],
-                      [NSStringFromSelector(@selector(testObserverEvent)) stringByAppendingString:@",监听按钮点击事件"],
+                      [NSStringFromSelector(@selector(testObserverEvent)) stringByAppendingString:@",监听按钮点击事件、通知、定时器、过滤信号、KVO、代理"],
                       [NSStringFromSelector(@selector(testRACConnection)) stringByAppendingString:@",写网络请求的地方"],
                       [NSStringFromSelector(@selector(testRACSequence)) stringByAppendingString:@",RACSequence这个类可以代替NSArray或NSDictionary，主要用来快速遍历和字典转模型"],
                       [NSStringFromSelector(@selector(testRACLiftSelector)) stringByAppendingString:@",与GCD的group类似，多个线程任务执行完成之后再操作另一事件"],
+                      [NSStringFromSelector(@selector(testIgnore)) stringByAppendingString:@",忽略信号"],
+                      [NSStringFromSelector(@selector(testTake)) stringByAppendingString:@",指定个数获取信号"],
+                      [NSStringFromSelector(@selector(testTakeUntil)) stringByAppendingString:@",使用标记信号来结束信号"],
+                      [NSStringFromSelector(@selector(testDistinctUntilChanged)) stringByAppendingString:@",去重相同的信号"],
+                      NSStringFromSelector(@selector(testRACLoginWithMVVM)),
                       
                       nil];
     [super viewDidLoad];
@@ -336,6 +341,98 @@
 - (void)updateUI:(id)first second:(id)second third:(id)third {
     NSLog(@"3 %@", [NSThread currentThread]);
     NSLog(@"%@, %@, %@", first, second, third);
+}
+/// 忽略信号
+- (void)testIgnore {
+    RACSubject *subject = [RACSubject subject];
+    // 忽略掉值为 a 的信号  [subject ignoreValues]忽略所有的值
+    [[subject ignore:@"a"] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"next: %@", x);
+    }];
+    [subject sendNext:@"a"];
+    [subject sendNext:@"a1"];
+    [subject sendNext:@"b"];
+    
+    [[[[subject ignore:@"1"] ignore:@"2"] ignore:@"3"] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"-next: %@", x);
+    }];
+    [subject sendNext:@"1"];
+    [subject sendNext:@"2"];
+    [subject sendNext:@"3"];
+    [subject sendNext:@"4"];
+}
+/// 指定哪些信号
+- (void)testTake {
+    RACSubject *subject = [RACSubject subject];
+    // 正序
+    [[subject take:1] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"take: %@", x);
+    }];
+    [subject sendNext:@"a"];
+    [subject sendNext:@"b"];
+    [subject sendNext:@"c"];
+    [subject sendNext:@"d"];
+    [subject sendNext:@"e"];
+    // 倒序
+    [[subject takeLast:2] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"takeLast: %@", x);
+    }];
+    [subject sendNext:@"a"];
+    [subject sendNext:@"b"];
+    [subject sendNext:@"c"];
+    [subject sendNext:@"d"];
+    [subject sendNext:@"e"];
+    // 使用takeLast时一定要调用完成方法，否则就是不知道什么时候结束，无法获取倒序信号
+    [subject sendCompleted];
+}
+/// 标记
+- (void)testTakeUntil {
+    // 需要一个信号作为标记，当标记的信号发送数据，就停止
+    RACSubject *subject = [RACSubject subject];
+    RACSubject *markSubject = [RACSubject subject];
+    [[subject takeUntil:markSubject] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"next: %@", x);
+    }];
+    [markSubject subscribeNext:^(id  _Nullable x) {
+        NSLog(@"mark: %@", x);
+    }];
+    [subject sendNext:@"1"];
+    [subject sendNext:@"2"];
+    
+    [markSubject sendNext:@"stop"];
+    
+    [subject sendNext:@"3"];
+    [subject sendNext:@"4"];
+}
+/// 去重相同信号
+- (void)testDistinctUntilChanged {
+    RACSubject *subject = [RACSubject subject];
+    [[subject distinctUntilChanged] subscribeNext:^(id  _Nullable x) {
+        NSLog(@"next: %@", x);
+    }];
+    [subject sendNext:@"x"];
+    [subject sendNext:@"x"];
+    [subject sendNext:@"x"];
+    // 还可以忽略数组、字典，但是不可以忽略模型
+    [subject sendNext:@[@1]];
+    [subject sendNext:@[@1]];
+    
+    [subject sendNext:@{@"name":@"jack"}];
+    [subject sendNext:@{@"name":@"jack"}];
+    
+    RACPerson *p1 = [[RACPerson alloc] init];
+    p1.name = @"jack";
+    p1.age = 20;
+    RACPerson *p2 = [[RACPerson alloc] init];
+    p2.name = @"jack";
+    p2.age = 20;
+    [subject sendNext:p1];
+    [subject sendNext:p2];
+}
+
+- (void)testRACLoginWithMVVM {
+    UIViewController *vc = [[UIStoryboard storyboardWithName:@"RACTest" bundle:nil] instantiateViewControllerWithIdentifier:@"login"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
