@@ -8,22 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5FDAF1E16E5EB7FF3F262EEA /* Pods_LearningRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */; };
-		F6726D8D20439C58008886CB /* BYRACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D8C20439C58008886CB /* BYRACBaseViewController.m */; };
-		F6726D9120439EC5008886CB /* BYRACBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D9020439EC5008886CB /* BYRACBaseView.m */; };
-		F6726D942043A185008886CB /* BYRACBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D932043A185008886CB /* BYRACBaseViewModel.m */; };
-		F6726D972043A2CD008886CB /* BYRACBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D962043A2CD008886CB /* BYRACBaseTableViewCell.m */; };
-		F6726D9C2043A704008886CB /* BYRACCircleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D9B2043A704008886CB /* BYRACCircleListViewController.m */; };
-		F6726DA02043A743008886CB /* BYCircleListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726D9F2043A743008886CB /* BYCircleListHeaderView.m */; };
-		F6726DA32043A763008886CB /* BYCircleListSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DA22043A763008886CB /* BYCircleListSectionHeaderView.m */; };
-		F6726DA62043A796008886CB /* BYCircleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DA52043A796008886CB /* BYCircleListView.m */; };
-		F6726DA92043A7B9008886CB /* BYCircleListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DA82043A7B9008886CB /* BYCircleListTableViewCell.m */; };
-		F6726DAC2043A89B008886CB /* BYRACBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DAB2043A89B008886CB /* BYRACBaseCollectionViewCell.m */; };
-		F6726DAF2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DAE2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.m */; };
-		F6726DB22043A981008886CB /* BYCircleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DB12043A981008886CB /* BYCircleListCollectionViewCell.m */; };
-		F6726DB62043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DB52043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.m */; };
-		F6726DB92043AE36008886CB /* BYCircleListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DB82043AE36008886CB /* BYCircleListViewModel.m */; };
-		F6726DBD2043B47A008886CB /* BYCircleListHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DBC2043B47A008886CB /* BYCircleListHeaderViewModel.m */; };
-		F6726DC02043B497008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DBF2043B497008886CB /* BYCircleListSectionHeaderViewModel.m */; };
 		F6726DC32043BBAB008886CB /* 120.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC22043BBAB008886CB /* 120.jpeg */; };
 		F6726DD82043BBBB008886CB /* 139.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC42043BBB9008886CB /* 139.jpeg */; };
 		F6726DD92043BBBB008886CB /* 121.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC52043BBB9008886CB /* 121.jpeg */; };
@@ -45,6 +29,23 @@
 		F6726DE92043BBBB008886CB /* 138.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DD52043BBBB008886CB /* 138.jpeg */; };
 		F6726DEA2043BBBB008886CB /* 123.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DD62043BBBB008886CB /* 123.jpeg */; };
 		F6726DEB2043BBBB008886CB /* 129.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DD72043BBBB008886CB /* 129.jpeg */; };
+		F6726DF420440573008886CB /* BYCircleListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DED20440572008886CB /* BYCircleListViewModel.m */; };
+		F6726DF520440573008886CB /* BYCircleListHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DEE20440572008886CB /* BYCircleListHeaderViewModel.m */; };
+		F6726DF620440573008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DF020440573008886CB /* BYCircleListSectionHeaderViewModel.m */; };
+		F6726DF720440573008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DF120440573008886CB /* BYCircleListCollectionViewCellViewModel.m */; };
+		F6726E0220440581008886CB /* BYCircleListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DF920440581008886CB /* BYCircleListTableViewCell.m */; };
+		F6726E0320440581008886CB /* BYCircleListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DFC20440581008886CB /* BYCircleListView.m */; };
+		F6726E0420440581008886CB /* BYCircleListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DFE20440581008886CB /* BYCircleListCollectionViewCell.m */; };
+		F6726E0520440581008886CB /* BYCircleListSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726DFF20440581008886CB /* BYCircleListSectionHeaderView.m */; };
+		F6726E0620440581008886CB /* BYCircleListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E0120440581008886CB /* BYCircleListHeaderView.m */; };
+		F6726E0920440590008886CB /* BYRACCircleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E0820440590008886CB /* BYRACCircleListViewController.m */; };
+		F6726E0C2044059B008886CB /* BYRACRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E0B2044059B008886CB /* BYRACRequest.m */; };
+		F6726E1D204405AB008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E0E204405AA008886CB /* BYRACBaseTableViewHeaderFooterView.m */; };
+		F6726E1E204405AB008886CB /* BYRACBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E10204405AA008886CB /* BYRACBaseCollectionViewCell.m */; };
+		F6726E1F204405AB008886CB /* BYRACBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E11204405AA008886CB /* BYRACBaseViewModel.m */; };
+		F6726E20204405AB008886CB /* BYRACBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E16204405AB008886CB /* BYRACBaseTableViewCell.m */; };
+		F6726E21204405AB008886CB /* BYRACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E17204405AB008886CB /* BYRACBaseViewController.m */; };
+		F6726E22204405AB008886CB /* BYRACBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6726E1A204405AB008886CB /* BYRACBaseView.m */; };
 		F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */; };
 		F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F67978D2202AA5FE003EFAD6 /* BYStack.m */; };
 		F67978D6202AA6E1003EFAD6 /* data_struct.md in Resources */ = {isa = PBXBuildFile; fileRef = F67978D5202AA6E1003EFAD6 /* data_struct.md */; };
@@ -66,7 +67,6 @@
 		F6B885692028372F00FCC799 /* LearningRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885682028372F00FCC799 /* LearningRecordUITests.m */; };
 		F6BFA99B2040FE5400825E22 /* BYRACLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BFA99A2040FE5400825E22 /* BYRACLoginVC.m */; };
 		F6BFA99E204103EC00825E22 /* BYRACLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BFA99D204103EC00825E22 /* BYRACLoginViewModel.m */; };
-		F6BFA9A72041626600825E22 /* BYRACRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BFA9A62041626600825E22 /* BYRACRequest.m */; };
 		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
 		F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D339203FC07B00B46149 /* BYRACTestVC.m */; };
 		F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D33B203FC09600B46149 /* RACTest.storyboard */; };
@@ -93,40 +93,7 @@
 		BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B371D27FBFACB1E752E0A /* Pods-LearningRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.release.xcconfig"; sourceTree = "<group>"; };
 		F5F12568C26E6573C16FEC3F /* Pods-LearningRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.debug.xcconfig"; sourceTree = "<group>"; };
-		F6726D8B20439C58008886CB /* BYRACBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseViewController.h; sourceTree = "<group>"; };
-		F6726D8C20439C58008886CB /* BYRACBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseViewController.m; sourceTree = "<group>"; };
-		F6726D8E20439CD3008886CB /* BYRACHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACHeaders.h; sourceTree = "<group>"; };
-		F6726D8F20439EC5008886CB /* BYRACBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseView.h; sourceTree = "<group>"; };
-		F6726D9020439EC5008886CB /* BYRACBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseView.m; sourceTree = "<group>"; };
-		F6726D922043A185008886CB /* BYRACBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseViewModel.h; sourceTree = "<group>"; };
-		F6726D932043A185008886CB /* BYRACBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseViewModel.m; sourceTree = "<group>"; };
-		F6726D952043A2CD008886CB /* BYRACBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseTableViewCell.h; sourceTree = "<group>"; };
-		F6726D962043A2CD008886CB /* BYRACBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseTableViewCell.m; sourceTree = "<group>"; };
-		F6726D9A2043A704008886CB /* BYRACCircleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACCircleListViewController.h; sourceTree = "<group>"; };
-		F6726D9B2043A704008886CB /* BYRACCircleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACCircleListViewController.m; sourceTree = "<group>"; };
-		F6726D9E2043A743008886CB /* BYCircleListHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListHeaderView.h; sourceTree = "<group>"; };
-		F6726D9F2043A743008886CB /* BYCircleListHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListHeaderView.m; sourceTree = "<group>"; };
-		F6726DA12043A763008886CB /* BYCircleListSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListSectionHeaderView.h; sourceTree = "<group>"; };
-		F6726DA22043A763008886CB /* BYCircleListSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListSectionHeaderView.m; sourceTree = "<group>"; };
-		F6726DA42043A796008886CB /* BYCircleListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListView.h; sourceTree = "<group>"; };
-		F6726DA52043A796008886CB /* BYCircleListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListView.m; sourceTree = "<group>"; };
-		F6726DA72043A7B9008886CB /* BYCircleListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListTableViewCell.h; sourceTree = "<group>"; };
-		F6726DA82043A7B9008886CB /* BYCircleListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListTableViewCell.m; sourceTree = "<group>"; };
-		F6726DAA2043A89B008886CB /* BYRACBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseCollectionViewCell.h; sourceTree = "<group>"; };
-		F6726DAB2043A89B008886CB /* BYRACBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseCollectionViewCell.m; sourceTree = "<group>"; };
-		F6726DAD2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		F6726DAE2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
-		F6726DB02043A981008886CB /* BYCircleListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListCollectionViewCell.h; sourceTree = "<group>"; };
-		F6726DB12043A981008886CB /* BYCircleListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListCollectionViewCell.m; sourceTree = "<group>"; };
-		F6726DB42043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListCollectionViewCellViewModel.h; sourceTree = "<group>"; };
-		F6726DB52043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListCollectionViewCellViewModel.m; sourceTree = "<group>"; };
-		F6726DB72043AE36008886CB /* BYCircleListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListViewModel.h; sourceTree = "<group>"; };
-		F6726DB82043AE36008886CB /* BYCircleListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListViewModel.m; sourceTree = "<group>"; };
 		F6726DBA2043B3D0008886CB /* BYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMacro.h; sourceTree = "<group>"; };
-		F6726DBB2043B47A008886CB /* BYCircleListHeaderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListHeaderViewModel.h; sourceTree = "<group>"; };
-		F6726DBC2043B47A008886CB /* BYCircleListHeaderViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListHeaderViewModel.m; sourceTree = "<group>"; };
-		F6726DBE2043B497008886CB /* BYCircleListSectionHeaderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCircleListSectionHeaderViewModel.h; sourceTree = "<group>"; };
-		F6726DBF2043B497008886CB /* BYCircleListSectionHeaderViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCircleListSectionHeaderViewModel.m; sourceTree = "<group>"; };
 		F6726DC22043BBAB008886CB /* 120.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 120.jpeg; sourceTree = "<group>"; };
 		F6726DC42043BBB9008886CB /* 139.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 139.jpeg; sourceTree = "<group>"; };
 		F6726DC52043BBB9008886CB /* 121.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 121.jpeg; sourceTree = "<group>"; };
@@ -148,6 +115,44 @@
 		F6726DD52043BBBB008886CB /* 138.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 138.jpeg; sourceTree = "<group>"; };
 		F6726DD62043BBBB008886CB /* 123.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpeg; sourceTree = "<group>"; };
 		F6726DD72043BBBB008886CB /* 129.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 129.jpeg; sourceTree = "<group>"; };
+		F6726DEC20440572008886CB /* BYCircleListSectionHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListSectionHeaderViewModel.h; sourceTree = "<group>"; };
+		F6726DED20440572008886CB /* BYCircleListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListViewModel.m; sourceTree = "<group>"; };
+		F6726DEE20440572008886CB /* BYCircleListHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListHeaderViewModel.m; sourceTree = "<group>"; };
+		F6726DEF20440573008886CB /* BYCircleListCollectionViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListCollectionViewCellViewModel.h; sourceTree = "<group>"; };
+		F6726DF020440573008886CB /* BYCircleListSectionHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListSectionHeaderViewModel.m; sourceTree = "<group>"; };
+		F6726DF120440573008886CB /* BYCircleListCollectionViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListCollectionViewCellViewModel.m; sourceTree = "<group>"; };
+		F6726DF220440573008886CB /* BYCircleListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListViewModel.h; sourceTree = "<group>"; };
+		F6726DF320440573008886CB /* BYCircleListHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListHeaderViewModel.h; sourceTree = "<group>"; };
+		F6726DF820440581008886CB /* BYCircleListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListHeaderView.h; sourceTree = "<group>"; };
+		F6726DF920440581008886CB /* BYCircleListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListTableViewCell.m; sourceTree = "<group>"; };
+		F6726DFA20440581008886CB /* BYCircleListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListView.h; sourceTree = "<group>"; };
+		F6726DFB20440581008886CB /* BYCircleListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListTableViewCell.h; sourceTree = "<group>"; };
+		F6726DFC20440581008886CB /* BYCircleListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListView.m; sourceTree = "<group>"; };
+		F6726DFD20440581008886CB /* BYCircleListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListCollectionViewCell.h; sourceTree = "<group>"; };
+		F6726DFE20440581008886CB /* BYCircleListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListCollectionViewCell.m; sourceTree = "<group>"; };
+		F6726DFF20440581008886CB /* BYCircleListSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListSectionHeaderView.m; sourceTree = "<group>"; };
+		F6726E0020440581008886CB /* BYCircleListSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYCircleListSectionHeaderView.h; sourceTree = "<group>"; };
+		F6726E0120440581008886CB /* BYCircleListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYCircleListHeaderView.m; sourceTree = "<group>"; };
+		F6726E0720440590008886CB /* BYRACCircleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACCircleListViewController.h; sourceTree = "<group>"; };
+		F6726E0820440590008886CB /* BYRACCircleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACCircleListViewController.m; sourceTree = "<group>"; };
+		F6726E0A2044059B008886CB /* BYRACRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACRequest.h; sourceTree = "<group>"; };
+		F6726E0B2044059B008886CB /* BYRACRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACRequest.m; sourceTree = "<group>"; };
+		F6726E0D204405AA008886CB /* BYRACViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACViewControllerProtocol.h; sourceTree = "<group>"; };
+		F6726E0E204405AA008886CB /* BYRACBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		F6726E0F204405AA008886CB /* BYRACBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		F6726E10204405AA008886CB /* BYRACBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		F6726E11204405AA008886CB /* BYRACBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseViewModel.m; sourceTree = "<group>"; };
+		F6726E12204405AB008886CB /* BYRACBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseView.h; sourceTree = "<group>"; };
+		F6726E13204405AB008886CB /* BYRACBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseTableViewCell.h; sourceTree = "<group>"; };
+		F6726E14204405AB008886CB /* BYRACBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseViewModel.h; sourceTree = "<group>"; };
+		F6726E15204405AB008886CB /* BYRACBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		F6726E16204405AB008886CB /* BYRACBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseTableViewCell.m; sourceTree = "<group>"; };
+		F6726E17204405AB008886CB /* BYRACBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseViewController.m; sourceTree = "<group>"; };
+		F6726E18204405AB008886CB /* BYRACHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACHeaders.h; sourceTree = "<group>"; };
+		F6726E19204405AB008886CB /* BYRACViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACViewModelProtocol.h; sourceTree = "<group>"; };
+		F6726E1A204405AB008886CB /* BYRACBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYRACBaseView.m; sourceTree = "<group>"; };
+		F6726E1B204405AB008886CB /* BYRACViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACViewProtocol.h; sourceTree = "<group>"; };
+		F6726E1C204405AB008886CB /* BYRACBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYRACBaseViewController.h; sourceTree = "<group>"; };
 		F67978CD202A9C72003EFAD6 /* BYDataStructVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDataStructVC.h; sourceTree = "<group>"; };
 		F67978CE202A9C72003EFAD6 /* BYDataStructVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDataStructVC.m; sourceTree = "<group>"; };
 		F67978D1202AA5FE003EFAD6 /* BYStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYStack.h; sourceTree = "<group>"; };
@@ -186,11 +191,6 @@
 		F6BFA99A2040FE5400825E22 /* BYRACLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACLoginVC.m; sourceTree = "<group>"; };
 		F6BFA99C204103EC00825E22 /* BYRACLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACLoginViewModel.h; sourceTree = "<group>"; };
 		F6BFA99D204103EC00825E22 /* BYRACLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACLoginViewModel.m; sourceTree = "<group>"; };
-		F6BFA9A120415F6A00825E22 /* BYRACViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewControllerProtocol.h; sourceTree = "<group>"; };
-		F6BFA9A220415FEE00825E22 /* BYRACViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewProtocol.h; sourceTree = "<group>"; };
-		F6BFA9A32041604C00825E22 /* BYRACViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewModelProtocol.h; sourceTree = "<group>"; };
-		F6BFA9A52041626600825E22 /* BYRACRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACRequest.h; sourceTree = "<group>"; };
-		F6BFA9A62041626600825E22 /* BYRACRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACRequest.m; sourceTree = "<group>"; };
 		F6CC010A202C3F4D00A12942 /* BYRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACViewController.h; sourceTree = "<group>"; };
 		F6CC010B202C3F4D00A12942 /* BYRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACViewController.m; sourceTree = "<group>"; };
 		F6D7D338203FC07B00B46149 /* BYRACTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACTestVC.h; sourceTree = "<group>"; };
@@ -254,8 +254,8 @@
 		F6726D992043A6C8008886CB /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				F6726D9A2043A704008886CB /* BYRACCircleListViewController.h */,
-				F6726D9B2043A704008886CB /* BYRACCircleListViewController.m */,
+				F6726E0720440590008886CB /* BYRACCircleListViewController.h */,
+				F6726E0820440590008886CB /* BYRACCircleListViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -263,16 +263,16 @@
 		F6726D9D2043A70D008886CB /* view */ = {
 			isa = PBXGroup;
 			children = (
-				F6726D9E2043A743008886CB /* BYCircleListHeaderView.h */,
-				F6726D9F2043A743008886CB /* BYCircleListHeaderView.m */,
-				F6726DA12043A763008886CB /* BYCircleListSectionHeaderView.h */,
-				F6726DA22043A763008886CB /* BYCircleListSectionHeaderView.m */,
-				F6726DA42043A796008886CB /* BYCircleListView.h */,
-				F6726DA52043A796008886CB /* BYCircleListView.m */,
-				F6726DA72043A7B9008886CB /* BYCircleListTableViewCell.h */,
-				F6726DA82043A7B9008886CB /* BYCircleListTableViewCell.m */,
-				F6726DB02043A981008886CB /* BYCircleListCollectionViewCell.h */,
-				F6726DB12043A981008886CB /* BYCircleListCollectionViewCell.m */,
+				F6726DFD20440581008886CB /* BYCircleListCollectionViewCell.h */,
+				F6726DFE20440581008886CB /* BYCircleListCollectionViewCell.m */,
+				F6726DF820440581008886CB /* BYCircleListHeaderView.h */,
+				F6726E0120440581008886CB /* BYCircleListHeaderView.m */,
+				F6726E0020440581008886CB /* BYCircleListSectionHeaderView.h */,
+				F6726DFF20440581008886CB /* BYCircleListSectionHeaderView.m */,
+				F6726DFB20440581008886CB /* BYCircleListTableViewCell.h */,
+				F6726DF920440581008886CB /* BYCircleListTableViewCell.m */,
+				F6726DFA20440581008886CB /* BYCircleListView.h */,
+				F6726DFC20440581008886CB /* BYCircleListView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -280,14 +280,14 @@
 		F6726DB32043A9B9008886CB /* view_model */ = {
 			isa = PBXGroup;
 			children = (
-				F6726DB42043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.h */,
-				F6726DB52043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.m */,
-				F6726DB72043AE36008886CB /* BYCircleListViewModel.h */,
-				F6726DB82043AE36008886CB /* BYCircleListViewModel.m */,
-				F6726DBB2043B47A008886CB /* BYCircleListHeaderViewModel.h */,
-				F6726DBC2043B47A008886CB /* BYCircleListHeaderViewModel.m */,
-				F6726DBE2043B497008886CB /* BYCircleListSectionHeaderViewModel.h */,
-				F6726DBF2043B497008886CB /* BYCircleListSectionHeaderViewModel.m */,
+				F6726DEF20440573008886CB /* BYCircleListCollectionViewCellViewModel.h */,
+				F6726DF120440573008886CB /* BYCircleListCollectionViewCellViewModel.m */,
+				F6726DF320440573008886CB /* BYCircleListHeaderViewModel.h */,
+				F6726DEE20440572008886CB /* BYCircleListHeaderViewModel.m */,
+				F6726DEC20440572008886CB /* BYCircleListSectionHeaderViewModel.h */,
+				F6726DF020440573008886CB /* BYCircleListSectionHeaderViewModel.m */,
+				F6726DF220440573008886CB /* BYCircleListViewModel.h */,
+				F6726DED20440572008886CB /* BYCircleListViewModel.m */,
 			);
 			path = view_model;
 			sourceTree = "<group>";
@@ -475,22 +475,22 @@
 		F6BFA9A020415F3800825E22 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				F6726D8E20439CD3008886CB /* BYRACHeaders.h */,
-				F6BFA9A120415F6A00825E22 /* BYRACViewControllerProtocol.h */,
-				F6726D8B20439C58008886CB /* BYRACBaseViewController.h */,
-				F6726D8C20439C58008886CB /* BYRACBaseViewController.m */,
-				F6BFA9A220415FEE00825E22 /* BYRACViewProtocol.h */,
-				F6726D8F20439EC5008886CB /* BYRACBaseView.h */,
-				F6726D9020439EC5008886CB /* BYRACBaseView.m */,
-				F6BFA9A32041604C00825E22 /* BYRACViewModelProtocol.h */,
-				F6726D922043A185008886CB /* BYRACBaseViewModel.h */,
-				F6726D932043A185008886CB /* BYRACBaseViewModel.m */,
-				F6726D952043A2CD008886CB /* BYRACBaseTableViewCell.h */,
-				F6726D962043A2CD008886CB /* BYRACBaseTableViewCell.m */,
-				F6726DAA2043A89B008886CB /* BYRACBaseCollectionViewCell.h */,
-				F6726DAB2043A89B008886CB /* BYRACBaseCollectionViewCell.m */,
-				F6726DAD2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.h */,
-				F6726DAE2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.m */,
+				F6726E15204405AB008886CB /* BYRACBaseCollectionViewCell.h */,
+				F6726E10204405AA008886CB /* BYRACBaseCollectionViewCell.m */,
+				F6726E13204405AB008886CB /* BYRACBaseTableViewCell.h */,
+				F6726E16204405AB008886CB /* BYRACBaseTableViewCell.m */,
+				F6726E0F204405AA008886CB /* BYRACBaseTableViewHeaderFooterView.h */,
+				F6726E0E204405AA008886CB /* BYRACBaseTableViewHeaderFooterView.m */,
+				F6726E12204405AB008886CB /* BYRACBaseView.h */,
+				F6726E1A204405AB008886CB /* BYRACBaseView.m */,
+				F6726E1C204405AB008886CB /* BYRACBaseViewController.h */,
+				F6726E17204405AB008886CB /* BYRACBaseViewController.m */,
+				F6726E14204405AB008886CB /* BYRACBaseViewModel.h */,
+				F6726E11204405AA008886CB /* BYRACBaseViewModel.m */,
+				F6726E18204405AB008886CB /* BYRACHeaders.h */,
+				F6726E0D204405AA008886CB /* BYRACViewControllerProtocol.h */,
+				F6726E19204405AB008886CB /* BYRACViewModelProtocol.h */,
+				F6726E1B204405AB008886CB /* BYRACViewProtocol.h */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -498,8 +498,8 @@
 		F6BFA9A42041624D00825E22 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
-				F6BFA9A52041626600825E22 /* BYRACRequest.h */,
-				F6BFA9A62041626600825E22 /* BYRACRequest.m */,
+				F6726E0A2044059B008886CB /* BYRACRequest.h */,
+				F6726E0B2044059B008886CB /* BYRACRequest.m */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -744,38 +744,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6726DA32043A763008886CB /* BYCircleListSectionHeaderView.m in Sources */,
-				F6726DA02043A743008886CB /* BYCircleListHeaderView.m in Sources */,
+				F6726E0620440581008886CB /* BYCircleListHeaderView.m in Sources */,
+				F6726DF720440573008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */,
 				F6B885492028372E00FCC799 /* BYViewController.m in Sources */,
+				F6726E0C2044059B008886CB /* BYRACRequest.m in Sources */,
 				F698E1772029A90000B35090 /* BYTabBarController.m in Sources */,
 				F6BFA99B2040FE5400825E22 /* BYRACLoginVC.m in Sources */,
-				F6726D8D20439C58008886CB /* BYRACBaseViewController.m in Sources */,
-				F6726D9C2043A704008886CB /* BYRACCircleListViewController.m in Sources */,
-				F6BFA9A72041626600825E22 /* BYRACRequest.m in Sources */,
-				F6726DAF2043A8FF008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */,
-				F6726DA92043A7B9008886CB /* BYCircleListTableViewCell.m in Sources */,
-				F6726DB22043A981008886CB /* BYCircleListCollectionViewCell.m in Sources */,
-				F6726DB92043AE36008886CB /* BYCircleListViewModel.m in Sources */,
+				F6726E20204405AB008886CB /* BYRACBaseTableViewCell.m in Sources */,
+				F6726DF420440573008886CB /* BYCircleListViewModel.m in Sources */,
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
-				F6726D972043A2CD008886CB /* BYRACBaseTableViewCell.m in Sources */,
+				F6726E1D204405AB008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */,
+				F6726E0220440581008886CB /* BYCircleListTableViewCell.m in Sources */,
+				F6726E21204405AB008886CB /* BYRACBaseViewController.m in Sources */,
 				F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */,
-				F6726DBD2043B47A008886CB /* BYCircleListHeaderViewModel.m in Sources */,
+				F6726E1E204405AB008886CB /* BYRACBaseCollectionViewCell.m in Sources */,
 				F6BFA99E204103EC00825E22 /* BYRACLoginViewModel.m in Sources */,
-				F6726D9120439EC5008886CB /* BYRACBaseView.m in Sources */,
-				F6726DC02043B497008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */,
 				F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */,
 				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
+				F6726E22204405AB008886CB /* BYRACBaseView.m in Sources */,
+				F6726E0320440581008886CB /* BYCircleListView.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
-				F6726DA62043A796008886CB /* BYCircleListView.m in Sources */,
-				F6726DB62043A9E2008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */,
-				F6726D942043A185008886CB /* BYRACBaseViewModel.m in Sources */,
+				F6726E1F204405AB008886CB /* BYRACBaseViewModel.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
 				F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */,
+				F6726E0920440590008886CB /* BYRACCircleListViewController.m in Sources */,
+				F6726DF520440573008886CB /* BYCircleListHeaderViewModel.m in Sources */,
 				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
+				F6726E0520440581008886CB /* BYCircleListSectionHeaderView.m in Sources */,
+				F6726E0420440581008886CB /* BYCircleListCollectionViewCell.m in Sources */,
 				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
-				F6726DAC2043A89B008886CB /* BYRACBaseCollectionViewCell.m in Sources */,
+				F6726DF620440573008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
