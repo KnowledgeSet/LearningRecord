@@ -12,6 +12,15 @@
 #import <Foundation/Foundation.h>
 #import "BYRACRequest.h"
 
+typedef NS_ENUM(NSUInteger, BYRACRefreshStatus) {
+    BYRACRefreshStatusHeaderMore = 1,
+    BYRACRefreshStatusHeaderNoMore,
+    BYRACRefreshStatusFooterMore,
+    BYRACRefreshStatusFooterNoMore,
+    BYRACRefreshStatusError,
+    BYRACRefreshStatusUI
+};
+
 @protocol BYRACViewModelProtocol <NSObject>
 @optional
 - (instancetype)initWithModel:(id)model;

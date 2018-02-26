@@ -7,7 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking/AFNetworking.h>
 
 @interface BYRACRequest : NSObject
+@property (nonatomic, strong) AFHTTPSessionManager  *operationManager;
+@property (nonatomic, strong) NSOperationQueue  *operationQueue;
++ (instancetype)request;
 
+- (void)POST:(NSString *)URLString
+  parameters:(NSDictionary *)parameters
+     success:(void(^)(BYRACRequest *request, NSString *responseString))success
+     failure:(void(^)(BYRACRequest *request, NSError *error))failure;
+- (void)GET:(NSString *)URLString
+ parameters:(NSDictionary *)parameters
+    success:(void(^)(BYRACRequest *request, NSString *responseString))success
+    failure:(void(^)(BYRACRequest *request, NSError *error))failure;
+- (void)GET:(NSString *)URLString;
+- (void)cancelAllOperations;
 @end

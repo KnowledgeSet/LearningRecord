@@ -8,6 +8,7 @@
 #import <ReactiveObjC/ReactiveObjC.h>
 #import <ReactiveObjC/RACReturnSignal.h>
 #import "BYRACViewController.h"
+#import "BYRACCircleListViewController.h"
 
 @interface RACPerson : NSObject
 @property (nonatomic, assign) NSInteger age;
@@ -51,6 +52,7 @@
                       [NSStringFromSelector(@selector(testTakeUntil)) stringByAppendingString:@",使用标记信号来结束信号"],
                       [NSStringFromSelector(@selector(testDistinctUntilChanged)) stringByAppendingString:@",去重相同的信号"],
                       NSStringFromSelector(@selector(testRACLoginWithMVVM)),
+                      [NSStringFromSelector(@selector(testRACAndMVVMWithList)) stringByAppendingString:@",搭建列表界面实践操作RAC与MVVM"],
                       
                       nil];
     [super viewDidLoad];
@@ -432,6 +434,11 @@
 
 - (void)testRACLoginWithMVVM {
     UIViewController *vc = [[UIStoryboard storyboardWithName:@"RACTest" bundle:nil] instantiateViewControllerWithIdentifier:@"login"];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)testRACAndMVVMWithList {
+    BYRACCircleListViewController *vc = [[BYRACCircleListViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
