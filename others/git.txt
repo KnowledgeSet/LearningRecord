@@ -1,0 +1,3 @@
+git pull 丢失的文件
+	通过git fsck --lost-found
+	然后去.git/lost-found/other中找
