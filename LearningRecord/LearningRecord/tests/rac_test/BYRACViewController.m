@@ -97,11 +97,16 @@
     }];
     // 3. 发送信号
     [subject sendNext:@"subject send next"];
+    [subject sendCompleted];
 }
 /// 可以先发送，再订阅
 - (void)testRACReplaySubject {
+    // 1. 创建信号
     RACReplaySubject *replaySubject = [RACReplaySubject subject];
+    // 2. 发送信号
     [replaySubject sendNext:@"send message before subscribe"];
+    [replaySubject sendCompleted];
+    // 3. 订阅信号
     [replaySubject subscribeNext:^(id  _Nullable x) {
         NSLog(@"next: %@", x);
     } error:^(NSError * _Nullable error) {
@@ -109,6 +114,8 @@
     } completed:^{
         NSLog(@"completed");
     }];
+    // 结束信号写在订阅前后都可以
+//    [replaySubject sendCompleted];
 }
 
 - (void)testRACCommand {
@@ -123,7 +130,7 @@
             }];
         }];
     }];
-    // 2. 订阅命令发出的信号
+    // 2. 订阅命令发出的信号     switchToLatest 获取最新信号
     [command.executionSignals.switchToLatest subscribeNext:^(id  _Nullable x) {
         NSLog(@"next: %@", x);
     } error:^(NSError * _Nullable error) {
@@ -131,8 +138,8 @@
     } completed:^{
         NSLog(@"completed");
     }];
-    // 3. 判断命令是否正在执行
-    [command.executing subscribeNext:^(NSNumber * _Nullable x) {
+    // 3. 判断命令是否正在执行    0 结束 1 执行中
+    [[command.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
         NSLog(@"executing next: %@", x);
     } error:^(NSError * _Nullable error) {
         NSLog(@"executing error: %@", error.description);
@@ -157,6 +164,7 @@
     // 2. 绑定源信号，生成绑定信号
     RACSignal *bindSignal = [signal bind:^RACSignalBindBlock _Nonnull{
         return ^RACSignal *(id value, BOOL *stop) {
+            // 对返回值进行处理
             return [RACReturnSignal return:[NSString stringWithFormat:@"%@ 123", value]];
         };
     }];
@@ -236,8 +244,10 @@
 }
 /// 测试网络请求
 - (void)testRACConnection {
+    // 1.创建signal信号
     RACSignal *signal = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
         NSLog(@"发送请求");
+        // 此处的subscriber是subject
         [subscriber sendNext:@"返回请求数据"];
         return nil;
     }];
@@ -253,7 +263,9 @@
         NSLog(@"3: %@", x);
     }];
      */
+    // 2.转换连接类，创建subject
     RACMulticastConnection *connect = [signal publish];
+    // 3.subject订阅
     [connect.signal subscribeNext:^(id  _Nullable x) {
         NSLog(@"1: %@", x);
     }];
@@ -263,6 +275,7 @@
     [connect.signal subscribeNext:^(id  _Nullable x) {
         NSLog(@"3: %@", x);
     }];
+    // 4.signal订阅，传入subject
     [connect connect];
 }
 
