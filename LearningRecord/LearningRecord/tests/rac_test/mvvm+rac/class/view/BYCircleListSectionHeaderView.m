@@ -59,6 +59,7 @@
 - (UIImageView *)bgImageView {
     if (!_bgImageView) {
         _bgImageView = [UIImageView new];
+        _bgImageView.backgroundColor = [UIColor purpleColor];
     }
     return _bgImageView;
 }

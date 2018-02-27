@@ -25,7 +25,10 @@
 
 ### RACMulticastConnection
 ![](../screenshot/rac_multicast_connection@2x.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 使用`RACSignal`多次订阅时，会发送多次信号，如果是用于网络请求则不适用，因此使用`RACMulticastConnection`这个连接类代替。
 
 1. 创建`signal`，同`RACSignal`;
