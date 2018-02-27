@@ -58,6 +58,7 @@
 		F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17C2029AFBA00B35090 /* BYBaseViewController.m */; };
 		F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17F2029AFFB00B35090 /* BYTableViewController.m */; };
 		F6AA5B772044FDE200421CD4 /* rac.md in Resources */ = {isa = PBXBuildFile; fileRef = F6AA5B762044FDE200421CD4 /* rac.md */; };
+		F6AA5B7A2045552E00421CD4 /* NSString+BYString.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA5B792045552E00421CD4 /* NSString+BYString.m */; };
 		F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885452028372E00FCC799 /* BYAppDelegate.m */; };
 		F6B885492028372E00FCC799 /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885482028372E00FCC799 /* BYViewController.m */; };
 		F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B8854A2028372E00FCC799 /* Main.storyboard */; };
@@ -173,6 +174,8 @@
 		F698E17E2029AFFB00B35090 /* BYTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTableViewController.h; sourceTree = "<group>"; };
 		F698E17F2029AFFB00B35090 /* BYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTableViewController.m; sourceTree = "<group>"; };
 		F6AA5B762044FDE200421CD4 /* rac.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = rac.md; sourceTree = "<group>"; };
+		F6AA5B782045552E00421CD4 /* NSString+BYString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BYString.h"; sourceTree = "<group>"; };
+		F6AA5B792045552E00421CD4 /* NSString+BYString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BYString.m"; sourceTree = "<group>"; };
 		F6B885412028372E00FCC799 /* LearningRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B885442028372E00FCC799 /* BYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAppDelegate.h; sourceTree = "<group>"; };
 		F6B885452028372E00FCC799 /* BYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAppDelegate.m; sourceTree = "<group>"; };
@@ -359,6 +362,8 @@
 				F6B885472028372E00FCC799 /* BYViewController.h */,
 				F6B885482028372E00FCC799 /* BYViewController.m */,
 				F6726DBA2043B3D0008886CB /* BYMacro.h */,
+				F6AA5B782045552E00421CD4 /* NSString+BYString.h */,
+				F6AA5B792045552E00421CD4 /* NSString+BYString.m */,
 				F6B8854A2028372E00FCC799 /* Main.storyboard */,
 				F6B8854D2028372E00FCC799 /* Assets.xcassets */,
 				F6B8854F2028372E00FCC799 /* LaunchScreen.storyboard */,
@@ -767,6 +772,7 @@
 				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
 				F6726E22204405AB008886CB /* BYRACBaseView.m in Sources */,
 				F6726E0320440581008886CB /* BYCircleListView.m in Sources */,
+				F6AA5B7A2045552E00421CD4 /* NSString+BYString.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F6726E1F204405AB008886CB /* BYRACBaseViewModel.m in Sources */,
