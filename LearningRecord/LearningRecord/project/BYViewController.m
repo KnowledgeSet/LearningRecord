@@ -41,6 +41,22 @@ static NSString *const kDesc = @"desc";
     });
     void * obj = (__bridge void *)(link);
     NSLog(@"%@, %@", obj, link);
+    
+    // 基本类型和对象类型 
+    __block int a = 0;
+    NSLog(@"定义前：%p", &a);         //栈区
+    NSMutableString *aa = [NSMutableString stringWithString:@"Tom"];
+    NSLog(@"\\n 定以前：------------------------------------\\n\\aa指向的堆中地址：%p；aa在栈中的指针地址：%p", aa, &aa); //a在栈区
+    void (^foo)(void) = ^{
+        a = 1;
+        NSLog(@"block内部：%p", &a);    //堆区
+        aa.string = @"Jerry"; // 没有修改指向堆中的地址，而是修改指向堆中的内容
+        NSLog(@"\\n block内部：------------------------------------\\n\\aa指向的堆中地址：%p；aa在栈中的指针地址：%p", aa, &aa); //a在栈区
+//        aa = [NSMutableString stringWithString:@"William"]; // 没有加__block，此时修改的不是堆中的内容，而是栈中的内容，所以编译不通过
+    };
+    NSLog(@"定义后：%p", &a);         //堆区
+    foo();
+    NSLog(@"\\n 定以后：------------------------------------\\n\\aa指向的堆中地址：%p；aa在栈中的指针地址：%p", aa, &aa); //a在栈区
 }
 
 #pragma mark - delegate
