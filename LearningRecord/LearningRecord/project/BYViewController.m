@@ -42,7 +42,7 @@ static NSString *const kDesc = @"desc";
     void * obj = (__bridge void *)(link);
     NSLog(@"%@, %@", obj, link);
     
-    // 基本类型和对象类型 
+    // 基本类型和对象类型
     __block int a = 0;
     NSLog(@"定义前：%p", &a);         //栈区
     NSMutableString *aa = [NSMutableString stringWithString:@"Tom"];
@@ -97,6 +97,10 @@ static NSString *const kDesc = @"desc";
                       @{
                         kCls : @"BYRACViewController",
                         kDesc : @"rac test"
+                        },
+                      @{
+                        kCls : @"BYMVXVC",
+                        kDesc : @"MVX系列模式"
                         },
                       nil];
     }

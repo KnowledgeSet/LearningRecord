@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5FDAF1E16E5EB7FF3F262EEA /* Pods_LearningRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */; };
+		F66E8EA82047DECD00266670 /* BYMVXVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EA72047DECD00266670 /* BYMVXVC.m */; };
+		F66E8EAE2047E09100266670 /* BYUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EAD2047E09100266670 /* BYUserViewController.m */; };
+		F66E8EB62047E18900266670 /* BYUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EB42047E18900266670 /* BYUserInfoViewController.m */; };
+		F66E8EB72047E18900266670 /* BYUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66E8EB52047E18900266670 /* BYUserInfoViewController.xib */; };
+		F66E8EBA2047EA5C00266670 /* BYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EB92047EA5C00266670 /* BYUser.m */; };
+		F66E8EBD2047F14300266670 /* BYUserAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EBC2047F14300266670 /* BYUserAPIManager.m */; };
+		F66E8EC02047F51A00266670 /* BYDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EBF2047F51A00266670 /* BYDetailViewController.m */; };
+		F66E8EC32047F8E000266670 /* BYBlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EC22047F8E000266670 /* BYBlogTableViewController.m */; };
+		F66E8EC72047FA7800266670 /* BYBlogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8EC52047FA7700266670 /* BYBlogTableViewCell.m */; };
+		F66E8EC82047FA7800266670 /* BYBlogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66E8EC62047FA7800266670 /* BYBlogTableViewCell.xib */; };
+		F66E8ECB2047FE2500266670 /* BYBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8ECA2047FE2500266670 /* BYBlog.m */; };
+		F66E8ECE2047FF2E00266670 /* BYBlogCellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F66E8ECD2047FF2E00266670 /* BYBlogCellHelper.m */; };
 		F6726DC32043BBAB008886CB /* 120.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC22043BBAB008886CB /* 120.jpeg */; };
 		F6726DD82043BBBB008886CB /* 139.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC42043BBB9008886CB /* 139.jpeg */; };
 		F6726DD92043BBBB008886CB /* 121.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6726DC52043BBB9008886CB /* 121.jpeg */; };
@@ -57,6 +69,26 @@
 		F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E1792029A92A00B35090 /* BYNavigationController.m */; };
 		F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17C2029AFBA00B35090 /* BYBaseViewController.m */; };
 		F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F698E17F2029AFFB00B35090 /* BYTableViewController.m */; };
+		F69E37C82048E65600F302A7 /* UIView+BYController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37C72048E65600F302A7 /* UIView+BYController.m */; };
+		F69E37CB2048EF6D00F302A7 /* BYSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37CA2048EF6D00F302A7 /* BYSelfViewController.m */; };
+		F69E37CF2048F15D00F302A7 /* UIView+BYExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37CD2048F15D00F302A7 /* UIView+BYExt.m */; };
+		F69E37D220491ADE00F302A7 /* BYDraftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37D120491ADE00F302A7 /* BYDraftTableViewController.m */; };
+		F69E37D520491B0300F302A7 /* BYDraft.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37D420491B0300F302A7 /* BYDraft.m */; };
+		F69E37D820491C5600F302A7 /* BYDraftCellHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37D720491C5600F302A7 /* BYDraftCellHelper.m */; };
+		F69E37DC20491CAA00F302A7 /* BYDraftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37DA20491CAA00F302A7 /* BYDraftTableViewCell.m */; };
+		F69E37DD20491CAA00F302A7 /* BYDraftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69E37DB20491CAA00F302A7 /* BYDraftTableViewCell.xib */; };
+		F69E37E02049276800F302A7 /* BYSceneY.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37DF2049276800F302A7 /* BYSceneY.m */; };
+		F69E37E520492F5C00F302A7 /* BYMVPUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37E420492F5C00F302A7 /* BYMVPUserViewController.m */; };
+		F69E37EA20492FBF00F302A7 /* BYMVPBlogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37E820492FBF00F302A7 /* BYMVPBlogTableViewCell.m */; };
+		F69E37EB20492FBF00F302A7 /* BYMVPBlogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69E37E920492FBF00F302A7 /* BYMVPBlogTableViewCell.xib */; };
+		F69E37EF204930EF00F302A7 /* BYBlogCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37EE204930EF00F302A7 /* BYBlogCellPresenter.m */; };
+		F69E37F32049341000F302A7 /* BYBlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37F22049341000F302A7 /* BYBlogViewController.m */; };
+		F69E37F62049344600F302A7 /* BYBlogViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37F52049344600F302A7 /* BYBlogViewPresenter.m */; };
+		F69E37FA20493F3E00F302A7 /* BYMVPDraftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37F820493F3E00F302A7 /* BYMVPDraftTableViewCell.m */; };
+		F69E37FB20493F3E00F302A7 /* BYMVPDraftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69E37F920493F3E00F302A7 /* BYMVPDraftTableViewCell.xib */; };
+		F69E37FE2049403E00F302A7 /* BYDraftCellPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E37FD2049403E00F302A7 /* BYDraftCellPresenter.m */; };
+		F69E38012049422500F302A7 /* BYDraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E38002049422500F302A7 /* BYDraftViewController.m */; };
+		F69E38042049423A00F302A7 /* BYDraftViewControllerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E38032049423A00F302A7 /* BYDraftViewControllerPresenter.m */; };
 		F6AA5B772044FDE200421CD4 /* rac.md in Resources */ = {isa = PBXBuildFile; fileRef = F6AA5B762044FDE200421CD4 /* rac.md */; };
 		F6AA5B7A2045552E00421CD4 /* NSString+BYString.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA5B792045552E00421CD4 /* NSString+BYString.m */; };
 		F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B885452028372E00FCC799 /* BYAppDelegate.m */; };
@@ -72,6 +104,17 @@
 		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
 		F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D339203FC07B00B46149 /* BYRACTestVC.m */; };
 		F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D33B203FC09600B46149 /* RACTest.storyboard */; };
+		F6E0D74B204D0FAE006AFD02 /* BYMVVMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */; };
+		F6E0D74E204D291E006AFD02 /* BYUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D74D204D291E006AFD02 /* BYUserInfoView.m */; };
+		F6E0D751204D2E43006AFD02 /* BYUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D750204D2E43006AFD02 /* BYUserInfoViewModel.m */; };
+		F6E0D754204D31A0006AFD02 /* BYUserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D753204D31A0006AFD02 /* BYUserInfoController.m */; };
+		F6E0D757204D38B4006AFD02 /* BYBlogView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D756204D38B4006AFD02 /* BYBlogView.m */; };
+		F6E0D75B204D38DB006AFD02 /* BYBlogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D759204D38DB006AFD02 /* BYBlogCell.m */; };
+		F6E0D75C204D38DB006AFD02 /* BYBlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E0D75A204D38DB006AFD02 /* BYBlogCell.xib */; };
+		F6E0D75F204D39ED006AFD02 /* BYBlogCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D75E204D39ED006AFD02 /* BYBlogCellViewModel.m */; };
+		F6E0D762204D3D87006AFD02 /* UIResponder+BYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D761204D3D87006AFD02 /* UIResponder+BYRouter.m */; };
+		F6E0D765204D3E25006AFD02 /* BYBlogViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */; };
+		F6E0D767204D4721006AFD02 /* pattern.md in Resources */ = {isa = PBXBuildFile; fileRef = F6E0D766204D4721006AFD02 /* pattern.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +138,29 @@
 		BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B371D27FBFACB1E752E0A /* Pods-LearningRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.release.xcconfig"; sourceTree = "<group>"; };
 		F5F12568C26E6573C16FEC3F /* Pods-LearningRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		F66E8EA62047DECD00266670 /* BYMVXVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVXVC.h; sourceTree = "<group>"; };
+		F66E8EA72047DECD00266670 /* BYMVXVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVXVC.m; sourceTree = "<group>"; };
+		F66E8EAC2047E09100266670 /* BYUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserViewController.h; sourceTree = "<group>"; };
+		F66E8EAD2047E09100266670 /* BYUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserViewController.m; sourceTree = "<group>"; };
+		F66E8EAF2047E12200266670 /* BYMVXHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVXHeader.h; sourceTree = "<group>"; };
+		F66E8EB32047E18900266670 /* BYUserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfoViewController.h; sourceTree = "<group>"; };
+		F66E8EB42047E18900266670 /* BYUserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserInfoViewController.m; sourceTree = "<group>"; };
+		F66E8EB52047E18900266670 /* BYUserInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYUserInfoViewController.xib; sourceTree = "<group>"; };
+		F66E8EB82047EA5C00266670 /* BYUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUser.h; sourceTree = "<group>"; };
+		F66E8EB92047EA5C00266670 /* BYUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUser.m; sourceTree = "<group>"; };
+		F66E8EBB2047F14300266670 /* BYUserAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserAPIManager.h; sourceTree = "<group>"; };
+		F66E8EBC2047F14300266670 /* BYUserAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserAPIManager.m; sourceTree = "<group>"; };
+		F66E8EBE2047F51A00266670 /* BYDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDetailViewController.h; sourceTree = "<group>"; };
+		F66E8EBF2047F51A00266670 /* BYDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDetailViewController.m; sourceTree = "<group>"; };
+		F66E8EC12047F8E000266670 /* BYBlogTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogTableViewController.h; sourceTree = "<group>"; };
+		F66E8EC22047F8E000266670 /* BYBlogTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogTableViewController.m; sourceTree = "<group>"; };
+		F66E8EC42047FA7700266670 /* BYBlogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogTableViewCell.h; sourceTree = "<group>"; };
+		F66E8EC52047FA7700266670 /* BYBlogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogTableViewCell.m; sourceTree = "<group>"; };
+		F66E8EC62047FA7800266670 /* BYBlogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYBlogTableViewCell.xib; sourceTree = "<group>"; };
+		F66E8EC92047FE2500266670 /* BYBlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlog.h; sourceTree = "<group>"; };
+		F66E8ECA2047FE2500266670 /* BYBlog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlog.m; sourceTree = "<group>"; };
+		F66E8ECC2047FF2E00266670 /* BYBlogCellHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogCellHelper.h; sourceTree = "<group>"; };
+		F66E8ECD2047FF2E00266670 /* BYBlogCellHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogCellHelper.m; sourceTree = "<group>"; };
 		F6726DBA2043B3D0008886CB /* BYMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMacro.h; sourceTree = "<group>"; };
 		F6726DC22043BBAB008886CB /* 120.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 120.jpeg; sourceTree = "<group>"; };
 		F6726DC42043BBB9008886CB /* 139.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 139.jpeg; sourceTree = "<group>"; };
@@ -173,6 +239,43 @@
 		F698E17C2029AFBA00B35090 /* BYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBaseViewController.m; sourceTree = "<group>"; };
 		F698E17E2029AFFB00B35090 /* BYTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTableViewController.h; sourceTree = "<group>"; };
 		F698E17F2029AFFB00B35090 /* BYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTableViewController.m; sourceTree = "<group>"; };
+		F69E37C62048E65600F302A7 /* UIView+BYController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BYController.h"; sourceTree = "<group>"; };
+		F69E37C72048E65600F302A7 /* UIView+BYController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYController.m"; sourceTree = "<group>"; };
+		F69E37C92048EF6D00F302A7 /* BYSelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYSelfViewController.h; sourceTree = "<group>"; };
+		F69E37CA2048EF6D00F302A7 /* BYSelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYSelfViewController.m; sourceTree = "<group>"; };
+		F69E37CD2048F15D00F302A7 /* UIView+BYExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYExt.m"; sourceTree = "<group>"; };
+		F69E37CE2048F15D00F302A7 /* UIView+BYExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BYExt.h"; sourceTree = "<group>"; };
+		F69E37D020491ADE00F302A7 /* BYDraftTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftTableViewController.h; sourceTree = "<group>"; };
+		F69E37D120491ADE00F302A7 /* BYDraftTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftTableViewController.m; sourceTree = "<group>"; };
+		F69E37D320491B0300F302A7 /* BYDraft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraft.h; sourceTree = "<group>"; };
+		F69E37D420491B0300F302A7 /* BYDraft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraft.m; sourceTree = "<group>"; };
+		F69E37D620491C5600F302A7 /* BYDraftCellHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftCellHelper.h; sourceTree = "<group>"; };
+		F69E37D720491C5600F302A7 /* BYDraftCellHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftCellHelper.m; sourceTree = "<group>"; };
+		F69E37D920491CAA00F302A7 /* BYDraftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftTableViewCell.h; sourceTree = "<group>"; };
+		F69E37DA20491CAA00F302A7 /* BYDraftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftTableViewCell.m; sourceTree = "<group>"; };
+		F69E37DB20491CAA00F302A7 /* BYDraftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYDraftTableViewCell.xib; sourceTree = "<group>"; };
+		F69E37DE2049276800F302A7 /* BYSceneY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYSceneY.h; sourceTree = "<group>"; };
+		F69E37DF2049276800F302A7 /* BYSceneY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYSceneY.m; sourceTree = "<group>"; };
+		F69E37E320492F5C00F302A7 /* BYMVPUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVPUserViewController.h; sourceTree = "<group>"; };
+		F69E37E420492F5C00F302A7 /* BYMVPUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVPUserViewController.m; sourceTree = "<group>"; };
+		F69E37E720492FBF00F302A7 /* BYMVPBlogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVPBlogTableViewCell.h; sourceTree = "<group>"; };
+		F69E37E820492FBF00F302A7 /* BYMVPBlogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVPBlogTableViewCell.m; sourceTree = "<group>"; };
+		F69E37E920492FBF00F302A7 /* BYMVPBlogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYMVPBlogTableViewCell.xib; sourceTree = "<group>"; };
+		F69E37ED204930EF00F302A7 /* BYBlogCellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogCellPresenter.h; sourceTree = "<group>"; };
+		F69E37EE204930EF00F302A7 /* BYBlogCellPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogCellPresenter.m; sourceTree = "<group>"; };
+		F69E37F12049341000F302A7 /* BYBlogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogViewController.h; sourceTree = "<group>"; };
+		F69E37F22049341000F302A7 /* BYBlogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogViewController.m; sourceTree = "<group>"; };
+		F69E37F42049344600F302A7 /* BYBlogViewPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogViewPresenter.h; sourceTree = "<group>"; };
+		F69E37F52049344600F302A7 /* BYBlogViewPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogViewPresenter.m; sourceTree = "<group>"; };
+		F69E37F720493F3E00F302A7 /* BYMVPDraftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVPDraftTableViewCell.h; sourceTree = "<group>"; };
+		F69E37F820493F3E00F302A7 /* BYMVPDraftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVPDraftTableViewCell.m; sourceTree = "<group>"; };
+		F69E37F920493F3E00F302A7 /* BYMVPDraftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYMVPDraftTableViewCell.xib; sourceTree = "<group>"; };
+		F69E37FC2049403E00F302A7 /* BYDraftCellPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftCellPresenter.h; sourceTree = "<group>"; };
+		F69E37FD2049403E00F302A7 /* BYDraftCellPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftCellPresenter.m; sourceTree = "<group>"; };
+		F69E37FF2049422500F302A7 /* BYDraftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftViewController.h; sourceTree = "<group>"; };
+		F69E38002049422500F302A7 /* BYDraftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftViewController.m; sourceTree = "<group>"; };
+		F69E38022049423A00F302A7 /* BYDraftViewControllerPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYDraftViewControllerPresenter.h; sourceTree = "<group>"; };
+		F69E38032049423A00F302A7 /* BYDraftViewControllerPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYDraftViewControllerPresenter.m; sourceTree = "<group>"; };
 		F6AA5B762044FDE200421CD4 /* rac.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = rac.md; sourceTree = "<group>"; };
 		F6AA5B782045552E00421CD4 /* NSString+BYString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BYString.h"; sourceTree = "<group>"; };
 		F6AA5B792045552E00421CD4 /* NSString+BYString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BYString.m"; sourceTree = "<group>"; };
@@ -201,6 +304,26 @@
 		F6D7D338203FC07B00B46149 /* BYRACTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACTestVC.h; sourceTree = "<group>"; };
 		F6D7D339203FC07B00B46149 /* BYRACTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACTestVC.m; sourceTree = "<group>"; };
 		F6D7D33B203FC09600B46149 /* RACTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RACTest.storyboard; sourceTree = "<group>"; };
+		F6E0D749204D0FAE006AFD02 /* BYMVVMUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVVMUserViewController.h; sourceTree = "<group>"; };
+		F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVVMUserViewController.m; sourceTree = "<group>"; };
+		F6E0D74C204D291E006AFD02 /* BYUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfoView.h; sourceTree = "<group>"; };
+		F6E0D74D204D291E006AFD02 /* BYUserInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserInfoView.m; sourceTree = "<group>"; };
+		F6E0D74F204D2E43006AFD02 /* BYUserInfoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfoViewModel.h; sourceTree = "<group>"; };
+		F6E0D750204D2E43006AFD02 /* BYUserInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserInfoViewModel.m; sourceTree = "<group>"; };
+		F6E0D752204D31A0006AFD02 /* BYUserInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfoController.h; sourceTree = "<group>"; };
+		F6E0D753204D31A0006AFD02 /* BYUserInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYUserInfoController.m; sourceTree = "<group>"; };
+		F6E0D755204D38B4006AFD02 /* BYBlogView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogView.h; sourceTree = "<group>"; };
+		F6E0D756204D38B4006AFD02 /* BYBlogView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogView.m; sourceTree = "<group>"; };
+		F6E0D758204D38DB006AFD02 /* BYBlogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogCell.h; sourceTree = "<group>"; };
+		F6E0D759204D38DB006AFD02 /* BYBlogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogCell.m; sourceTree = "<group>"; };
+		F6E0D75A204D38DB006AFD02 /* BYBlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BYBlogCell.xib; sourceTree = "<group>"; };
+		F6E0D75D204D39ED006AFD02 /* BYBlogCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogCellViewModel.h; sourceTree = "<group>"; };
+		F6E0D75E204D39ED006AFD02 /* BYBlogCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogCellViewModel.m; sourceTree = "<group>"; };
+		F6E0D760204D3D87006AFD02 /* UIResponder+BYRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+BYRouter.h"; sourceTree = "<group>"; };
+		F6E0D761204D3D87006AFD02 /* UIResponder+BYRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+BYRouter.m"; sourceTree = "<group>"; };
+		F6E0D763204D3E25006AFD02 /* BYBlogViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogViewModel.h; sourceTree = "<group>"; };
+		F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogViewModel.m; sourceTree = "<group>"; };
+		F6E0D766204D4721006AFD02 /* pattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pattern.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +367,103 @@
 				BE49CD9356A6409FD095BA7B /* Pods_LearningRecord.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66E8EA52047DE7A00266670 /* mvx */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EA62047DECD00266670 /* BYMVXVC.h */,
+				F66E8EA72047DECD00266670 /* BYMVXVC.m */,
+				F66E8EA92047DF0F00266670 /* test */,
+			);
+			path = mvx;
+			sourceTree = "<group>";
+		};
+		F66E8EA92047DF0F00266670 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EAF2047E12200266670 /* BYMVXHeader.h */,
+				F66E8EBB2047F14300266670 /* BYUserAPIManager.h */,
+				F66E8EBC2047F14300266670 /* BYUserAPIManager.m */,
+				F66E8EBE2047F51A00266670 /* BYDetailViewController.h */,
+				F66E8EBF2047F51A00266670 /* BYDetailViewController.m */,
+				F69E37C62048E65600F302A7 /* UIView+BYController.h */,
+				F69E37C72048E65600F302A7 /* UIView+BYController.m */,
+				F69E37DE2049276800F302A7 /* BYSceneY.h */,
+				F69E37DF2049276800F302A7 /* BYSceneY.m */,
+				F6E0D760204D3D87006AFD02 /* UIResponder+BYRouter.h */,
+				F6E0D761204D3D87006AFD02 /* UIResponder+BYRouter.m */,
+				F6E0D744204D0F66006AFD02 /* mvvm */,
+				F69E37E120492F3E00F302A7 /* mvp */,
+				F66E8EAA2047DF6900266670 /* mvc */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		F66E8EAA2047DF6900266670 /* mvc */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EB22047E15A00266670 /* c */,
+				F66E8EB12047E15700266670 /* v */,
+				F66E8EB02047E15100266670 /* m */,
+				F66E8EAB2047DFF500266670 /* scene */,
+			);
+			path = mvc;
+			sourceTree = "<group>";
+		};
+		F66E8EAB2047DFF500266670 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EAC2047E09100266670 /* BYUserViewController.h */,
+				F66E8EAD2047E09100266670 /* BYUserViewController.m */,
+				F69E37C92048EF6D00F302A7 /* BYSelfViewController.h */,
+				F69E37CA2048EF6D00F302A7 /* BYSelfViewController.m */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		F66E8EB02047E15100266670 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EB82047EA5C00266670 /* BYUser.h */,
+				F66E8EB92047EA5C00266670 /* BYUser.m */,
+				F66E8EC92047FE2500266670 /* BYBlog.h */,
+				F66E8ECA2047FE2500266670 /* BYBlog.m */,
+				F69E37D320491B0300F302A7 /* BYDraft.h */,
+				F69E37D420491B0300F302A7 /* BYDraft.m */,
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		F66E8EB12047E15700266670 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EC42047FA7700266670 /* BYBlogTableViewCell.h */,
+				F66E8EC52047FA7700266670 /* BYBlogTableViewCell.m */,
+				F66E8EC62047FA7800266670 /* BYBlogTableViewCell.xib */,
+				F69E37D920491CAA00F302A7 /* BYDraftTableViewCell.h */,
+				F69E37DA20491CAA00F302A7 /* BYDraftTableViewCell.m */,
+				F69E37DB20491CAA00F302A7 /* BYDraftTableViewCell.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		F66E8EB22047E15A00266670 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				F66E8EB32047E18900266670 /* BYUserInfoViewController.h */,
+				F66E8EB42047E18900266670 /* BYUserInfoViewController.m */,
+				F66E8EB52047E18900266670 /* BYUserInfoViewController.xib */,
+				F66E8EC12047F8E000266670 /* BYBlogTableViewController.h */,
+				F66E8EC22047F8E000266670 /* BYBlogTableViewController.m */,
+				F66E8ECC2047FF2E00266670 /* BYBlogCellHelper.h */,
+				F66E8ECD2047FF2E00266670 /* BYBlogCellHelper.m */,
+				F69E37D020491ADE00F302A7 /* BYDraftTableViewController.h */,
+				F69E37D120491ADE00F302A7 /* BYDraftTableViewController.m */,
+				F69E37D620491C5600F302A7 /* BYDraftCellHelper.h */,
+				F69E37D720491C5600F302A7 /* BYDraftCellHelper.m */,
+			);
+			path = c;
 			sourceTree = "<group>";
 		};
 		F6726D982043A6BB008886CB /* class */ = {
@@ -339,6 +559,7 @@
 			children = (
 				F67978D5202AA6E1003EFAD6 /* data_struct.md */,
 				F6AA5B762044FDE200421CD4 /* rac.md */,
+				F6E0D766204D4721006AFD02 /* pattern.md */,
 			);
 			name = readMe;
 			path = ../readMe;
@@ -362,8 +583,7 @@
 				F6B885472028372E00FCC799 /* BYViewController.h */,
 				F6B885482028372E00FCC799 /* BYViewController.m */,
 				F6726DBA2043B3D0008886CB /* BYMacro.h */,
-				F6AA5B782045552E00421CD4 /* NSString+BYString.h */,
-				F6AA5B792045552E00421CD4 /* NSString+BYString.m */,
+				F69E37CC2048F0F200F302A7 /* category */,
 				F6B8854A2028372E00FCC799 /* Main.storyboard */,
 				F6B8854D2028372E00FCC799 /* Assets.xcassets */,
 				F6B8854F2028372E00FCC799 /* LaunchScreen.storyboard */,
@@ -377,6 +597,7 @@
 		F698E16D2029819700B35090 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F66E8EA52047DE7A00266670 /* mvx */,
 				F6CC0109202C3EFB00A12942 /* rac_test */,
 				F698E16E202981A500B35090 /* data_struct */,
 			);
@@ -417,6 +638,76 @@
 				F698E17F2029AFFB00B35090 /* BYTableViewController.m */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		F69E37CC2048F0F200F302A7 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA5B782045552E00421CD4 /* NSString+BYString.h */,
+				F6AA5B792045552E00421CD4 /* NSString+BYString.m */,
+				F69E37CE2048F15D00F302A7 /* UIView+BYExt.h */,
+				F69E37CD2048F15D00F302A7 /* UIView+BYExt.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F69E37E120492F3E00F302A7 /* mvp */ = {
+			isa = PBXGroup;
+			children = (
+				F69E37F0204933F000F302A7 /* c */,
+				F69E37EC204930D900F302A7 /* p */,
+				F69E37E620492FA300F302A7 /* v */,
+				F69E37E220492F4500F302A7 /* scene */,
+			);
+			path = mvp;
+			sourceTree = "<group>";
+		};
+		F69E37E220492F4500F302A7 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				F69E37E320492F5C00F302A7 /* BYMVPUserViewController.h */,
+				F69E37E420492F5C00F302A7 /* BYMVPUserViewController.m */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		F69E37E620492FA300F302A7 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				F69E37E720492FBF00F302A7 /* BYMVPBlogTableViewCell.h */,
+				F69E37E820492FBF00F302A7 /* BYMVPBlogTableViewCell.m */,
+				F69E37E920492FBF00F302A7 /* BYMVPBlogTableViewCell.xib */,
+				F69E37F720493F3E00F302A7 /* BYMVPDraftTableViewCell.h */,
+				F69E37F820493F3E00F302A7 /* BYMVPDraftTableViewCell.m */,
+				F69E37F920493F3E00F302A7 /* BYMVPDraftTableViewCell.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		F69E37EC204930D900F302A7 /* p */ = {
+			isa = PBXGroup;
+			children = (
+				F69E37ED204930EF00F302A7 /* BYBlogCellPresenter.h */,
+				F69E37EE204930EF00F302A7 /* BYBlogCellPresenter.m */,
+				F69E37F42049344600F302A7 /* BYBlogViewPresenter.h */,
+				F69E37F52049344600F302A7 /* BYBlogViewPresenter.m */,
+				F69E37FC2049403E00F302A7 /* BYDraftCellPresenter.h */,
+				F69E37FD2049403E00F302A7 /* BYDraftCellPresenter.m */,
+				F69E38022049423A00F302A7 /* BYDraftViewControllerPresenter.h */,
+				F69E38032049423A00F302A7 /* BYDraftViewControllerPresenter.m */,
+			);
+			path = p;
+			sourceTree = "<group>";
+		};
+		F69E37F0204933F000F302A7 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				F69E37F12049341000F302A7 /* BYBlogViewController.h */,
+				F69E37F22049341000F302A7 /* BYBlogViewController.m */,
+				F69E37FF2049422500F302A7 /* BYDraftViewController.h */,
+				F69E38002049422500F302A7 /* BYDraftViewController.m */,
+			);
+			path = c;
 			sourceTree = "<group>";
 		};
 		F6B885382028372E00FCC799 = {
@@ -529,6 +820,62 @@
 			path = rac_test;
 			sourceTree = "<group>";
 		};
+		F6E0D744204D0F66006AFD02 /* mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0D748204D0F95006AFD02 /* vm */,
+				F6E0D747204D0F92006AFD02 /* c */,
+				F6E0D746204D0F8B006AFD02 /* v */,
+				F6E0D745204D0F83006AFD02 /* scene */,
+			);
+			path = mvvm;
+			sourceTree = "<group>";
+		};
+		F6E0D745204D0F83006AFD02 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0D749204D0FAE006AFD02 /* BYMVVMUserViewController.h */,
+				F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		F6E0D746204D0F8B006AFD02 /* v */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0D74C204D291E006AFD02 /* BYUserInfoView.h */,
+				F6E0D74D204D291E006AFD02 /* BYUserInfoView.m */,
+				F6E0D755204D38B4006AFD02 /* BYBlogView.h */,
+				F6E0D756204D38B4006AFD02 /* BYBlogView.m */,
+				F6E0D758204D38DB006AFD02 /* BYBlogCell.h */,
+				F6E0D759204D38DB006AFD02 /* BYBlogCell.m */,
+				F6E0D75A204D38DB006AFD02 /* BYBlogCell.xib */,
+			);
+			path = v;
+			sourceTree = "<group>";
+		};
+		F6E0D747204D0F92006AFD02 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0D752204D31A0006AFD02 /* BYUserInfoController.h */,
+				F6E0D753204D31A0006AFD02 /* BYUserInfoController.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		F6E0D748204D0F95006AFD02 /* vm */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0D74F204D2E43006AFD02 /* BYUserInfoViewModel.h */,
+				F6E0D750204D2E43006AFD02 /* BYUserInfoViewModel.m */,
+				F6E0D75D204D39ED006AFD02 /* BYBlogCellViewModel.h */,
+				F6E0D75E204D39ED006AFD02 /* BYBlogCellViewModel.m */,
+				F6E0D763204D3E25006AFD02 /* BYBlogViewModel.h */,
+				F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */,
+			);
+			path = vm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -639,6 +986,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69E37EB20492FBF00F302A7 /* BYMVPBlogTableViewCell.xib in Resources */,
 				F6726DE72043BBBB008886CB /* 137.jpeg in Resources */,
 				F6726DE12043BBBB008886CB /* 133.jpeg in Resources */,
 				F6726DE42043BBBB008886CB /* 135.jpeg in Resources */,
@@ -647,7 +995,11 @@
 				F6726DD82043BBBB008886CB /* 139.jpeg in Resources */,
 				F6726DE82043BBBB008886CB /* 127.jpeg in Resources */,
 				F6AA5B772044FDE200421CD4 /* rac.md in Resources */,
+				F69E37FB20493F3E00F302A7 /* BYMVPDraftTableViewCell.xib in Resources */,
+				F6E0D767204D4721006AFD02 /* pattern.md in Resources */,
+				F66E8EC82047FA7800266670 /* BYBlogTableViewCell.xib in Resources */,
 				F6B8854E2028372E00FCC799 /* Assets.xcassets in Resources */,
+				F66E8EB72047E18900266670 /* BYUserInfoViewController.xib in Resources */,
 				F67978D6202AA6E1003EFAD6 /* data_struct.md in Resources */,
 				F6726DDE2043BBBB008886CB /* 134.jpeg in Resources */,
 				F6726DE02043BBBB008886CB /* 126.jpeg in Resources */,
@@ -655,6 +1007,8 @@
 				F698E16B20295F5E00B35090 /* README.md in Resources */,
 				F6726DDF2043BBBB008886CB /* 125.jpeg in Resources */,
 				F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */,
+				F6E0D75C204D38DB006AFD02 /* BYBlogCell.xib in Resources */,
+				F69E37DD20491CAA00F302A7 /* BYDraftTableViewCell.xib in Resources */,
 				F6726DEB2043BBBB008886CB /* 129.jpeg in Resources */,
 				F6726DDC2043BBBB008886CB /* 132.jpeg in Resources */,
 				F6726DE92043BBBB008886CB /* 138.jpeg in Resources */,
@@ -713,18 +1067,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LearningRecord/Pods-LearningRecord-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -754,38 +1112,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6726E0620440581008886CB /* BYCircleListHeaderView.m in Sources */,
+				F69E37D820491C5600F302A7 /* BYDraftCellHelper.m in Sources */,
+				F66E8ECE2047FF2E00266670 /* BYBlogCellHelper.m in Sources */,
 				F6726DF720440573008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */,
+				F66E8EAE2047E09100266670 /* BYUserViewController.m in Sources */,
 				F6B885492028372E00FCC799 /* BYViewController.m in Sources */,
+				F66E8EC32047F8E000266670 /* BYBlogTableViewController.m in Sources */,
 				F6726E0C2044059B008886CB /* BYRACRequest.m in Sources */,
+				F6E0D762204D3D87006AFD02 /* UIResponder+BYRouter.m in Sources */,
 				F698E1772029A90000B35090 /* BYTabBarController.m in Sources */,
 				F6BFA99B2040FE5400825E22 /* BYRACLoginVC.m in Sources */,
+				F66E8EBA2047EA5C00266670 /* BYUser.m in Sources */,
+				F6E0D74B204D0FAE006AFD02 /* BYMVVMUserViewController.m in Sources */,
 				F6726E20204405AB008886CB /* BYRACBaseTableViewCell.m in Sources */,
 				F6726DF420440573008886CB /* BYCircleListViewModel.m in Sources */,
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
+				F69E37CF2048F15D00F302A7 /* UIView+BYExt.m in Sources */,
+				F66E8EB62047E18900266670 /* BYUserInfoViewController.m in Sources */,
 				F6726E1D204405AB008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */,
+				F69E37D520491B0300F302A7 /* BYDraft.m in Sources */,
 				F6726E0220440581008886CB /* BYCircleListTableViewCell.m in Sources */,
 				F6726E21204405AB008886CB /* BYRACBaseViewController.m in Sources */,
 				F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */,
+				F69E37EF204930EF00F302A7 /* BYBlogCellPresenter.m in Sources */,
+				F66E8EC02047F51A00266670 /* BYDetailViewController.m in Sources */,
+				F69E37FA20493F3E00F302A7 /* BYMVPDraftTableViewCell.m in Sources */,
+				F66E8EA82047DECD00266670 /* BYMVXVC.m in Sources */,
+				F69E37D220491ADE00F302A7 /* BYDraftTableViewController.m in Sources */,
+				F6E0D754204D31A0006AFD02 /* BYUserInfoController.m in Sources */,
+				F6E0D751204D2E43006AFD02 /* BYUserInfoViewModel.m in Sources */,
 				F6726E1E204405AB008886CB /* BYRACBaseCollectionViewCell.m in Sources */,
 				F6BFA99E204103EC00825E22 /* BYRACLoginViewModel.m in Sources */,
+				F69E38012049422500F302A7 /* BYDraftViewController.m in Sources */,
+				F6E0D75F204D39ED006AFD02 /* BYBlogCellViewModel.m in Sources */,
 				F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */,
 				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
 				F6726E22204405AB008886CB /* BYRACBaseView.m in Sources */,
+				F69E38042049423A00F302A7 /* BYDraftViewControllerPresenter.m in Sources */,
+				F6E0D74E204D291E006AFD02 /* BYUserInfoView.m in Sources */,
+				F69E37EA20492FBF00F302A7 /* BYMVPBlogTableViewCell.m in Sources */,
+				F6E0D75B204D38DB006AFD02 /* BYBlogCell.m in Sources */,
+				F66E8EBD2047F14300266670 /* BYUserAPIManager.m in Sources */,
 				F6726E0320440581008886CB /* BYCircleListView.m in Sources */,
+				F69E37E02049276800F302A7 /* BYSceneY.m in Sources */,
 				F6AA5B7A2045552E00421CD4 /* NSString+BYString.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
+				F69E37F32049341000F302A7 /* BYBlogViewController.m in Sources */,
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F6726E1F204405AB008886CB /* BYRACBaseViewModel.m in Sources */,
+				F69E37E520492F5C00F302A7 /* BYMVPUserViewController.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
+				F69E37CB2048EF6D00F302A7 /* BYSelfViewController.m in Sources */,
+				F69E37F62049344600F302A7 /* BYBlogViewPresenter.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
 				F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */,
 				F6726E0920440590008886CB /* BYRACCircleListViewController.m in Sources */,
+				F69E37FE2049403E00F302A7 /* BYDraftCellPresenter.m in Sources */,
+				F69E37DC20491CAA00F302A7 /* BYDraftTableViewCell.m in Sources */,
+				F6E0D757204D38B4006AFD02 /* BYBlogView.m in Sources */,
 				F6726DF520440573008886CB /* BYCircleListHeaderViewModel.m in Sources */,
 				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
+				F66E8EC72047FA7800266670 /* BYBlogTableViewCell.m in Sources */,
 				F6726E0520440581008886CB /* BYCircleListSectionHeaderView.m in Sources */,
 				F6726E0420440581008886CB /* BYCircleListCollectionViewCell.m in Sources */,
 				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
+				F66E8ECB2047FE2500266670 /* BYBlog.m in Sources */,
 				F6726DF620440573008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */,
+				F6E0D765204D3E25006AFD02 /* BYBlogViewModel.m in Sources */,
+				F69E37C82048E65600F302A7 /* UIView+BYController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
