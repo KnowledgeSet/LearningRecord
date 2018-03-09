@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"%@", NSHomeDirectory());
     // Override point for customization after application launch.
     return YES;
 }
@@ -47,5 +48,55 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - core data stack
+@synthesize persistentContainer = _persistentContainer;
+
+- (void)saveContext {
+    NSManagedObjectContext *context = self.managedObjectContext;
+    NSError *error = nil;
+    if ([context hasChanges] && ![context save:&error]) {
+        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
+        abort();
+    }
+}
+
+- (NSManagedObjectModel *)managedObject {
+    if (!_managedObject) {
+        _managedObject = [[NSManagedObjectModel alloc] initWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"BYVIPER_Contacts" withExtension:@"momd"]];
+    }
+    return _managedObject;
+}
+
+- (NSManagedObjectContext *)managedObjectContext {
+    if (!_managedObjectContext) {
+        _managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+        _managedObjectContext.persistentStoreCoordinator = self.persistentContainer;
+    }
+    return _managedObjectContext;
+}
+
+- (NSPersistentStoreCoordinator *)persistentContainer {
+    @synchronized(self) {
+        if (_persistentContainer == nil) {
+            _persistentContainer = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObject];
+            NSURL *sqliteURL = [[self documentDirectoryURL] URLByAppendingPathComponent:@"BYContact.sqlite"];
+            NSError *error = nil;
+            [_persistentContainer addPersistentStoreWithType:NSSQLiteStoreType
+                                               configuration:nil
+                                                         URL:sqliteURL
+                                                     options:nil
+                                                       error:&error];
+            if (error) {
+                NSLog(@"Unresolved error %@, %@", error, error.userInfo);
+                abort();
+            }
+        }
+    }
+    return _persistentContainer;
+}
+
+- (NSURL *)documentDirectoryURL {
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] firstObject];
+}
 
 @end

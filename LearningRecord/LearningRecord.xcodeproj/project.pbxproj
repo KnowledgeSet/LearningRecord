@@ -104,6 +104,8 @@
 		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
 		F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D339203FC07B00B46149 /* BYRACTestVC.m */; };
 		F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D33B203FC09600B46149 /* RACTest.storyboard */; };
+		F6DC7774205221EF0038A8C7 /* NSArray+BYContactArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DC7773205221EF0038A8C7 /* NSArray+BYContactArray.m */; };
+		F6DC7778205224C00038A8C7 /* BYContactListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DC7777205224C00038A8C7 /* BYContactListRouter.m */; };
 		F6E0D74B204D0FAE006AFD02 /* BYMVVMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */; };
 		F6E0D74E204D291E006AFD02 /* BYUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D74D204D291E006AFD02 /* BYUserInfoView.m */; };
 		F6E0D751204D2E43006AFD02 /* BYUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D750204D2E43006AFD02 /* BYUserInfoViewModel.m */; };
@@ -115,6 +117,22 @@
 		F6E0D762204D3D87006AFD02 /* UIResponder+BYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D761204D3D87006AFD02 /* UIResponder+BYRouter.m */; };
 		F6E0D765204D3E25006AFD02 /* BYBlogViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */; };
 		F6E0D767204D4721006AFD02 /* pattern.md in Resources */ = {isa = PBXBuildFile; fileRef = F6E0D766204D4721006AFD02 /* pattern.md */; };
+		F6E749462052395C00CFB311 /* BYAddContactLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E749452052395C00CFB311 /* BYAddContactLocalDataManager.m */; };
+		F6E7494A20523AE600CFB311 /* BYAddContactInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7494920523AE600CFB311 /* BYAddContactInteractor.m */; };
+		F6E7494E20523B8900CFB311 /* BYAddContactPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7494D20523B8900CFB311 /* BYAddContactPresenter.m */; };
+		F6E7495220523D0100CFB311 /* BYAddContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E7495120523D0100CFB311 /* BYAddContactView.m */; };
+		F6E749562052571C00CFB311 /* BYAddContactRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E749552052571C00CFB311 /* BYAddContactRouter.m */; };
+		F6F153A12051240D005D908A /* BYCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153A02051240C005D908A /* BYCoreDataStore.m */; };
+		F6F153A520512512005D908A /* BYContactListLocalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153A420512512005D908A /* BYContactListLocalDataManager.m */; };
+		F6F153A92051294D005D908A /* BYContactListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153A82051294D005D908A /* BYContactListInteractor.m */; };
+		F6F153AD20512FB5005D908A /* BYContactListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153AC20512FB5005D908A /* BYContactListPresenter.m */; };
+		F6F153B020513305005D908A /* BYContactViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153AF20513305005D908A /* BYContactViewModel.m */; };
+		F6F153B62051356F005D908A /* BYContact+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F57A57204E8F890055361A /* BYContact+CoreDataProperties.m */; };
+		F6F153C020513715005D908A /* BYContact+BYFullName.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153BD20513714005D908A /* BYContact+BYFullName.m */; };
+		F6F153CA205139D6005D908A /* BYContactListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F153C9205139D6005D908A /* BYContactListView.m */; };
+		F6F153CC20513A09005D908A /* BYVIPER.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F153CB20513A09005D908A /* BYVIPER.storyboard */; };
+		F6F57A4C204E8CA90055361A /* BYVIPERVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F57A4B204E8CA90055361A /* BYVIPERVC.m */; };
+		F6F57A52204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6F57A50204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -304,6 +322,10 @@
 		F6D7D338203FC07B00B46149 /* BYRACTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACTestVC.h; sourceTree = "<group>"; };
 		F6D7D339203FC07B00B46149 /* BYRACTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACTestVC.m; sourceTree = "<group>"; };
 		F6D7D33B203FC09600B46149 /* RACTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RACTest.storyboard; sourceTree = "<group>"; };
+		F6DC7772205221EF0038A8C7 /* NSArray+BYContactArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+BYContactArray.h"; sourceTree = "<group>"; };
+		F6DC7773205221EF0038A8C7 /* NSArray+BYContactArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BYContactArray.m"; sourceTree = "<group>"; };
+		F6DC7776205224C00038A8C7 /* BYContactListRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListRouter.h; sourceTree = "<group>"; };
+		F6DC7777205224C00038A8C7 /* BYContactListRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactListRouter.m; sourceTree = "<group>"; };
 		F6E0D749204D0FAE006AFD02 /* BYMVVMUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMVVMUserViewController.h; sourceTree = "<group>"; };
 		F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMVVMUserViewController.m; sourceTree = "<group>"; };
 		F6E0D74C204D291E006AFD02 /* BYUserInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYUserInfoView.h; sourceTree = "<group>"; };
@@ -324,6 +346,38 @@
 		F6E0D763204D3E25006AFD02 /* BYBlogViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYBlogViewModel.h; sourceTree = "<group>"; };
 		F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBlogViewModel.m; sourceTree = "<group>"; };
 		F6E0D766204D4721006AFD02 /* pattern.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pattern.md; sourceTree = "<group>"; };
+		F6E749442052395C00CFB311 /* BYAddContactLocalDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactLocalDataManager.h; sourceTree = "<group>"; };
+		F6E749452052395C00CFB311 /* BYAddContactLocalDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAddContactLocalDataManager.m; sourceTree = "<group>"; };
+		F6E7494820523AE600CFB311 /* BYAddContactInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactInteractor.h; sourceTree = "<group>"; };
+		F6E7494920523AE600CFB311 /* BYAddContactInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAddContactInteractor.m; sourceTree = "<group>"; };
+		F6E7494C20523B8900CFB311 /* BYAddContactPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactPresenter.h; sourceTree = "<group>"; };
+		F6E7494D20523B8900CFB311 /* BYAddContactPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAddContactPresenter.m; sourceTree = "<group>"; };
+		F6E7495020523D0100CFB311 /* BYAddContactView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactView.h; sourceTree = "<group>"; };
+		F6E7495120523D0100CFB311 /* BYAddContactView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAddContactView.m; sourceTree = "<group>"; };
+		F6E749542052571C00CFB311 /* BYAddContactRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactRouter.h; sourceTree = "<group>"; };
+		F6E749552052571C00CFB311 /* BYAddContactRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAddContactRouter.m; sourceTree = "<group>"; };
+		F6F1539F2051240C005D908A /* BYCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCoreDataStore.h; sourceTree = "<group>"; };
+		F6F153A02051240C005D908A /* BYCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCoreDataStore.m; sourceTree = "<group>"; };
+		F6F153A320512512005D908A /* BYContactListLocalDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListLocalDataManager.h; sourceTree = "<group>"; };
+		F6F153A420512512005D908A /* BYContactListLocalDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactListLocalDataManager.m; sourceTree = "<group>"; };
+		F6F153A72051294D005D908A /* BYContactListInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListInteractor.h; sourceTree = "<group>"; };
+		F6F153A82051294D005D908A /* BYContactListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactListInteractor.m; sourceTree = "<group>"; };
+		F6F153AB20512FB5005D908A /* BYContactListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListPresenter.h; sourceTree = "<group>"; };
+		F6F153AC20512FB5005D908A /* BYContactListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactListPresenter.m; sourceTree = "<group>"; };
+		F6F153AE20513305005D908A /* BYContactViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactViewModel.h; sourceTree = "<group>"; };
+		F6F153AF20513305005D908A /* BYContactViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactViewModel.m; sourceTree = "<group>"; };
+		F6F153BB20513714005D908A /* BYContact+BYFullName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BYContact+BYFullName.h"; sourceTree = "<group>"; };
+		F6F153BD20513714005D908A /* BYContact+BYFullName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BYContact+BYFullName.m"; sourceTree = "<group>"; };
+		F6F153C62051383F005D908A /* BYAddContactProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAddContactProtocols.h; sourceTree = "<group>"; };
+		F6F153C8205139D6005D908A /* BYContactListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListView.h; sourceTree = "<group>"; };
+		F6F153C9205139D6005D908A /* BYContactListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYContactListView.m; sourceTree = "<group>"; };
+		F6F153CB20513A09005D908A /* BYVIPER.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BYVIPER.storyboard; sourceTree = "<group>"; };
+		F6F57A4A204E8CA90055361A /* BYVIPERVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYVIPERVC.h; sourceTree = "<group>"; };
+		F6F57A4B204E8CA90055361A /* BYVIPERVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYVIPERVC.m; sourceTree = "<group>"; };
+		F6F57A4F204E8D6B0055361A /* BYContactListProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListProtocols.h; sourceTree = "<group>"; };
+		F6F57A51204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BYVIPER_Contacts.xcdatamodel; sourceTree = "<group>"; };
+		F6F57A56204E8F890055361A /* BYContact+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BYContact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		F6F57A57204E8F890055361A /* BYContact+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BYContact+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -597,6 +651,7 @@
 		F698E16D2029819700B35090 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F6F57A49204E8C5D0055361A /* viper */,
 				F66E8EA52047DE7A00266670 /* mvx */,
 				F6CC0109202C3EFB00A12942 /* rac_test */,
 				F698E16E202981A500B35090 /* data_struct */,
@@ -820,6 +875,15 @@
 			path = rac_test;
 			sourceTree = "<group>";
 		};
+		F6DC7775205224A70038A8C7 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F6DC7776205224C00038A8C7 /* BYContactListRouter.h */,
+				F6DC7777205224C00038A8C7 /* BYContactListRouter.m */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
 		F6E0D744204D0F66006AFD02 /* mvvm */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +938,160 @@
 				F6E0D764204D3E25006AFD02 /* BYBlogViewModel.m */,
 			);
 			path = vm;
+			sourceTree = "<group>";
+		};
+		F6E749432052394200CFB311 /* data_manager */ = {
+			isa = PBXGroup;
+			children = (
+				F6E749442052395C00CFB311 /* BYAddContactLocalDataManager.h */,
+				F6E749452052395C00CFB311 /* BYAddContactLocalDataManager.m */,
+			);
+			path = data_manager;
+			sourceTree = "<group>";
+		};
+		F6E7494720523AD000CFB311 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F6E7494820523AE600CFB311 /* BYAddContactInteractor.h */,
+				F6E7494920523AE600CFB311 /* BYAddContactInteractor.m */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F6E7494B20523B7600CFB311 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F6E7494C20523B8900CFB311 /* BYAddContactPresenter.h */,
+				F6E7494D20523B8900CFB311 /* BYAddContactPresenter.m */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F6E7494F20523CE100CFB311 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F6E7495020523D0100CFB311 /* BYAddContactView.h */,
+				F6E7495120523D0100CFB311 /* BYAddContactView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F6E749532052570900CFB311 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F6E749542052571C00CFB311 /* BYAddContactRouter.h */,
+				F6E749552052571C00CFB311 /* BYAddContactRouter.m */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F6F153A2205124F4005D908A /* data_manager */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153A320512512005D908A /* BYContactListLocalDataManager.h */,
+				F6F153A420512512005D908A /* BYContactListLocalDataManager.m */,
+			);
+			path = data_manager;
+			sourceTree = "<group>";
+		};
+		F6F153A62051292D005D908A /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153A72051294D005D908A /* BYContactListInteractor.h */,
+				F6F153A82051294D005D908A /* BYContactListInteractor.m */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		F6F153AA20512F92005D908A /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153AB20512FB5005D908A /* BYContactListPresenter.h */,
+				F6F153AC20512FB5005D908A /* BYContactListPresenter.m */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F6F153C42051381B005D908A /* add_contact */ = {
+			isa = PBXGroup;
+			children = (
+				F6E749532052570900CFB311 /* router */,
+				F6E7494F20523CE100CFB311 /* view */,
+				F6E7494B20523B7600CFB311 /* presenter */,
+				F6E7494720523AD000CFB311 /* interactor */,
+				F6E749432052394200CFB311 /* data_manager */,
+				F6F153C520513827005D908A /* protocols */,
+			);
+			path = add_contact;
+			sourceTree = "<group>";
+		};
+		F6F153C520513827005D908A /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153C62051383F005D908A /* BYAddContactProtocols.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F6F153C720513954005D908A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153C8205139D6005D908A /* BYContactListView.h */,
+				F6F153C9205139D6005D908A /* BYContactListView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F6F57A49204E8C5D0055361A /* viper */ = {
+			isa = PBXGroup;
+			children = (
+				F6F57A50204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodeld */,
+				F6F153CB20513A09005D908A /* BYVIPER.storyboard */,
+				F6F57A4A204E8CA90055361A /* BYVIPERVC.h */,
+				F6F57A4B204E8CA90055361A /* BYVIPERVC.m */,
+				F6F1539F2051240C005D908A /* BYCoreDataStore.h */,
+				F6F153A02051240C005D908A /* BYCoreDataStore.m */,
+				F6DC7772205221EF0038A8C7 /* NSArray+BYContactArray.h */,
+				F6DC7773205221EF0038A8C7 /* NSArray+BYContactArray.m */,
+				F6F153C42051381B005D908A /* add_contact */,
+				F6F57A53204E8EDA0055361A /* entities */,
+				F6F57A4D204E8D350055361A /* contact_list */,
+			);
+			path = viper;
+			sourceTree = "<group>";
+		};
+		F6F57A4D204E8D350055361A /* contact_list */ = {
+			isa = PBXGroup;
+			children = (
+				F6DC7775205224A70038A8C7 /* router */,
+				F6F153C720513954005D908A /* view */,
+				F6F153AA20512F92005D908A /* presenter */,
+				F6F153A62051292D005D908A /* interactor */,
+				F6F153A2205124F4005D908A /* data_manager */,
+				F6F57A4E204E8D4E0055361A /* protocols */,
+			);
+			path = contact_list;
+			sourceTree = "<group>";
+		};
+		F6F57A4E204E8D4E0055361A /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F6F57A4F204E8D6B0055361A /* BYContactListProtocols.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F6F57A53204E8EDA0055361A /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				F6F153BB20513714005D908A /* BYContact+BYFullName.h */,
+				F6F153BD20513714005D908A /* BYContact+BYFullName.m */,
+				F6F57A56204E8F890055361A /* BYContact+CoreDataProperties.h */,
+				F6F57A57204E8F890055361A /* BYContact+CoreDataProperties.m */,
+				F6F153AE20513305005D908A /* BYContactViewModel.h */,
+				F6F153AF20513305005D908A /* BYContactViewModel.m */,
+			);
+			path = entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1004,6 +1222,7 @@
 				F6726DDE2043BBBB008886CB /* 134.jpeg in Resources */,
 				F6726DE02043BBBB008886CB /* 126.jpeg in Resources */,
 				F6726DE52043BBBB008886CB /* 136.jpeg in Resources */,
+				F6F153CC20513A09005D908A /* BYVIPER.storyboard in Resources */,
 				F698E16B20295F5E00B35090 /* README.md in Resources */,
 				F6726DDF2043BBBB008886CB /* 125.jpeg in Resources */,
 				F6B8854C2028372E00FCC799 /* Main.storyboard in Resources */,
@@ -1111,12 +1330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F153B62051356F005D908A /* BYContact+CoreDataProperties.m in Sources */,
 				F6726E0620440581008886CB /* BYCircleListHeaderView.m in Sources */,
 				F69E37D820491C5600F302A7 /* BYDraftCellHelper.m in Sources */,
+				F6E749462052395C00CFB311 /* BYAddContactLocalDataManager.m in Sources */,
 				F66E8ECE2047FF2E00266670 /* BYBlogCellHelper.m in Sources */,
 				F6726DF720440573008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */,
 				F66E8EAE2047E09100266670 /* BYUserViewController.m in Sources */,
 				F6B885492028372E00FCC799 /* BYViewController.m in Sources */,
+				F6E749562052571C00CFB311 /* BYAddContactRouter.m in Sources */,
 				F66E8EC32047F8E000266670 /* BYBlogTableViewController.m in Sources */,
 				F6726E0C2044059B008886CB /* BYRACRequest.m in Sources */,
 				F6E0D762204D3D87006AFD02 /* UIResponder+BYRouter.m in Sources */,
@@ -1129,8 +1351,11 @@
 				F698E1722029824800B35090 /* BYLinkedList.m in Sources */,
 				F69E37CF2048F15D00F302A7 /* UIView+BYExt.m in Sources */,
 				F66E8EB62047E18900266670 /* BYUserInfoViewController.m in Sources */,
+				F6F57A52204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodeld in Sources */,
 				F6726E1D204405AB008886CB /* BYRACBaseTableViewHeaderFooterView.m in Sources */,
+				F6F153A12051240D005D908A /* BYCoreDataStore.m in Sources */,
 				F69E37D520491B0300F302A7 /* BYDraft.m in Sources */,
+				F6F153AD20512FB5005D908A /* BYContactListPresenter.m in Sources */,
 				F6726E0220440581008886CB /* BYCircleListTableViewCell.m in Sources */,
 				F6726E21204405AB008886CB /* BYRACBaseViewController.m in Sources */,
 				F67978D3202AA5FE003EFAD6 /* BYStack.m in Sources */,
@@ -1143,32 +1368,41 @@
 				F6E0D751204D2E43006AFD02 /* BYUserInfoViewModel.m in Sources */,
 				F6726E1E204405AB008886CB /* BYRACBaseCollectionViewCell.m in Sources */,
 				F6BFA99E204103EC00825E22 /* BYRACLoginViewModel.m in Sources */,
+				F6DC7774205221EF0038A8C7 /* NSArray+BYContactArray.m in Sources */,
 				F69E38012049422500F302A7 /* BYDraftViewController.m in Sources */,
 				F6E0D75F204D39ED006AFD02 /* BYBlogCellViewModel.m in Sources */,
 				F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */,
 				F67978DA202AADD8003EFAD6 /* BYQueue.m in Sources */,
 				F6726E22204405AB008886CB /* BYRACBaseView.m in Sources */,
+				F6F153CA205139D6005D908A /* BYContactListView.m in Sources */,
 				F69E38042049423A00F302A7 /* BYDraftViewControllerPresenter.m in Sources */,
 				F6E0D74E204D291E006AFD02 /* BYUserInfoView.m in Sources */,
 				F69E37EA20492FBF00F302A7 /* BYMVPBlogTableViewCell.m in Sources */,
 				F6E0D75B204D38DB006AFD02 /* BYBlogCell.m in Sources */,
 				F66E8EBD2047F14300266670 /* BYUserAPIManager.m in Sources */,
 				F6726E0320440581008886CB /* BYCircleListView.m in Sources */,
+				F6E7495220523D0100CFB311 /* BYAddContactView.m in Sources */,
+				F6F153B020513305005D908A /* BYContactViewModel.m in Sources */,
 				F69E37E02049276800F302A7 /* BYSceneY.m in Sources */,
 				F6AA5B7A2045552E00421CD4 /* NSString+BYString.m in Sources */,
 				F6B885542028372E00FCC799 /* main.m in Sources */,
+				F6E7494E20523B8900CFB311 /* BYAddContactPresenter.m in Sources */,
 				F69E37F32049341000F302A7 /* BYBlogViewController.m in Sources */,
 				F698E1802029AFFB00B35090 /* BYTableViewController.m in Sources */,
 				F6726E1F204405AB008886CB /* BYRACBaseViewModel.m in Sources */,
 				F69E37E520492F5C00F302A7 /* BYMVPUserViewController.m in Sources */,
+				F6DC7778205224C00038A8C7 /* BYContactListRouter.m in Sources */,
 				F698E17A2029A92A00B35090 /* BYNavigationController.m in Sources */,
 				F69E37CB2048EF6D00F302A7 /* BYSelfViewController.m in Sources */,
 				F69E37F62049344600F302A7 /* BYBlogViewPresenter.m in Sources */,
 				F6B885462028372E00FCC799 /* BYAppDelegate.m in Sources */,
 				F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */,
+				F6F153C020513715005D908A /* BYContact+BYFullName.m in Sources */,
 				F6726E0920440590008886CB /* BYRACCircleListViewController.m in Sources */,
 				F69E37FE2049403E00F302A7 /* BYDraftCellPresenter.m in Sources */,
 				F69E37DC20491CAA00F302A7 /* BYDraftTableViewCell.m in Sources */,
+				F6F153A520512512005D908A /* BYContactListLocalDataManager.m in Sources */,
+				F6E7494A20523AE600CFB311 /* BYAddContactInteractor.m in Sources */,
 				F6E0D757204D38B4006AFD02 /* BYBlogView.m in Sources */,
 				F6726DF520440573008886CB /* BYCircleListHeaderViewModel.m in Sources */,
 				F67978CF202A9C72003EFAD6 /* BYDataStructVC.m in Sources */,
@@ -1177,7 +1411,9 @@
 				F6726E0420440581008886CB /* BYCircleListCollectionViewCell.m in Sources */,
 				F698E17D2029AFBA00B35090 /* BYBaseViewController.m in Sources */,
 				F66E8ECB2047FE2500266670 /* BYBlog.m in Sources */,
+				F6F57A4C204E8CA90055361A /* BYVIPERVC.m in Sources */,
 				F6726DF620440573008886CB /* BYCircleListSectionHeaderViewModel.m in Sources */,
+				F6F153A92051294D005D908A /* BYContactListInteractor.m in Sources */,
 				F6E0D765204D3E25006AFD02 /* BYBlogViewModel.m in Sources */,
 				F69E37C82048E65600F302A7 /* UIView+BYController.m in Sources */,
 			);
@@ -1467,6 +1703,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6F57A50204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6F57A51204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodel */,
+			);
+			currentVersion = F6F57A51204E8E6E0055361A /* BYVIPER_Contacts.xcdatamodel */;
+			path = BYVIPER_Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F6B885392028372E00FCC799 /* Project object */;
 }

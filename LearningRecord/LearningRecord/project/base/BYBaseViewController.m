@@ -13,6 +13,9 @@
 @end
 
 @implementation BYBaseViewController
+- (void)dealloc {
+    NSLog(@"%@ dealloc", NSStringFromClass([self class]));
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

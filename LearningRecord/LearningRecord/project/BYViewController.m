@@ -102,6 +102,10 @@ static NSString *const kDesc = @"desc";
                         kCls : @"BYMVXVC",
                         kDesc : @"MVX系列模式"
                         },
+                      @{
+                        kCls : @"BYVIPERVC",
+                        kDesc : @"VIPER模式"
+                        },
                       nil];
     }
     return _dataArray;
