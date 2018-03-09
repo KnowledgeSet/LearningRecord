@@ -90,7 +90,7 @@
 }
 
 - (void)addUI {
-    CGFloat userInfoViewHeight = [BYUserInfoViewController viewHeight];
+    CGFloat userInfoViewHeight = [BYUserInfoViewController viewHeight] - self.navigationController.navigationBar.bottom;
     
     self.userInfoController.view.frame = CGRectMake(0, self.navigationController.navigationBar.bottom, BYSCREEN_WIDTH, userInfoViewHeight);
     [self.view addSubview:self.userInfoController.view];
