@@ -104,6 +104,8 @@
 		F6CC010C202C3F4D00A12942 /* BYRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CC010B202C3F4D00A12942 /* BYRACViewController.m */; };
 		F6D7D33A203FC07B00B46149 /* BYRACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D7D339203FC07B00B46149 /* BYRACTestVC.m */; };
 		F6D7D33C203FC09600B46149 /* RACTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D7D33B203FC09600B46149 /* RACTest.storyboard */; };
+		F6D972F0205375CA006CE356 /* BYAppDelegate+BYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D972EF205375CA006CE356 /* BYAppDelegate+BYSwizzling.m */; };
+		F6D972F420538138006CE356 /* BYInterviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D972F320538138006CE356 /* BYInterviewVC.m */; };
 		F6DC7774205221EF0038A8C7 /* NSArray+BYContactArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DC7773205221EF0038A8C7 /* NSArray+BYContactArray.m */; };
 		F6DC7778205224C00038A8C7 /* BYContactListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DC7777205224C00038A8C7 /* BYContactListRouter.m */; };
 		F6E0D74B204D0FAE006AFD02 /* BYMVVMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0D74A204D0FAE006AFD02 /* BYMVVMUserViewController.m */; };
@@ -322,6 +324,10 @@
 		F6D7D338203FC07B00B46149 /* BYRACTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRACTestVC.h; sourceTree = "<group>"; };
 		F6D7D339203FC07B00B46149 /* BYRACTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRACTestVC.m; sourceTree = "<group>"; };
 		F6D7D33B203FC09600B46149 /* RACTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RACTest.storyboard; sourceTree = "<group>"; };
+		F6D972EE205375CA006CE356 /* BYAppDelegate+BYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BYAppDelegate+BYSwizzling.h"; sourceTree = "<group>"; };
+		F6D972EF205375CA006CE356 /* BYAppDelegate+BYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BYAppDelegate+BYSwizzling.m"; sourceTree = "<group>"; };
+		F6D972F220538138006CE356 /* BYInterviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYInterviewVC.h; sourceTree = "<group>"; };
+		F6D972F320538138006CE356 /* BYInterviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYInterviewVC.m; sourceTree = "<group>"; };
 		F6DC7772205221EF0038A8C7 /* NSArray+BYContactArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+BYContactArray.h"; sourceTree = "<group>"; };
 		F6DC7773205221EF0038A8C7 /* NSArray+BYContactArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BYContactArray.m"; sourceTree = "<group>"; };
 		F6DC7776205224C00038A8C7 /* BYContactListRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYContactListRouter.h; sourceTree = "<group>"; };
@@ -651,6 +657,7 @@
 		F698E16D2029819700B35090 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F6D972F120538114006CE356 /* interview */,
 				F6F57A49204E8C5D0055361A /* viper */,
 				F66E8EA52047DE7A00266670 /* mvx */,
 				F6CC0109202C3EFB00A12942 /* rac_test */,
@@ -702,6 +709,8 @@
 				F6AA5B792045552E00421CD4 /* NSString+BYString.m */,
 				F69E37CE2048F15D00F302A7 /* UIView+BYExt.h */,
 				F69E37CD2048F15D00F302A7 /* UIView+BYExt.m */,
+				F6D972EE205375CA006CE356 /* BYAppDelegate+BYSwizzling.h */,
+				F6D972EF205375CA006CE356 /* BYAppDelegate+BYSwizzling.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -873,6 +882,15 @@
 				F6BFA99F20415F1D00825E22 /* mvvm+rac */,
 			);
 			path = rac_test;
+			sourceTree = "<group>";
+		};
+		F6D972F120538114006CE356 /* interview */ = {
+			isa = PBXGroup;
+			children = (
+				F6D972F220538138006CE356 /* BYInterviewVC.h */,
+				F6D972F320538138006CE356 /* BYInterviewVC.m */,
+			);
+			path = interview;
 			sourceTree = "<group>";
 		};
 		F6DC7775205224A70038A8C7 /* router */ = {
@@ -1333,6 +1351,7 @@
 				F6F153B62051356F005D908A /* BYContact+CoreDataProperties.m in Sources */,
 				F6726E0620440581008886CB /* BYCircleListHeaderView.m in Sources */,
 				F69E37D820491C5600F302A7 /* BYDraftCellHelper.m in Sources */,
+				F6D972F0205375CA006CE356 /* BYAppDelegate+BYSwizzling.m in Sources */,
 				F6E749462052395C00CFB311 /* BYAddContactLocalDataManager.m in Sources */,
 				F66E8ECE2047FF2E00266670 /* BYBlogCellHelper.m in Sources */,
 				F6726DF720440573008886CB /* BYCircleListCollectionViewCellViewModel.m in Sources */,
@@ -1364,6 +1383,7 @@
 				F69E37FA20493F3E00F302A7 /* BYMVPDraftTableViewCell.m in Sources */,
 				F66E8EA82047DECD00266670 /* BYMVXVC.m in Sources */,
 				F69E37D220491ADE00F302A7 /* BYDraftTableViewController.m in Sources */,
+				F6D972F420538138006CE356 /* BYInterviewVC.m in Sources */,
 				F6E0D754204D31A0006AFD02 /* BYUserInfoController.m in Sources */,
 				F6E0D751204D2E43006AFD02 /* BYUserInfoViewModel.m in Sources */,
 				F6726E1E204405AB008886CB /* BYRACBaseCollectionViewCell.m in Sources */,

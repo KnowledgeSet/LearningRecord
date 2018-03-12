@@ -106,6 +106,10 @@ static NSString *const kDesc = @"desc";
                         kCls : @"BYVIPERVC",
                         kDesc : @"VIPER模式"
                         },
+                      @{
+                        kCls : @"BYInterviewVC",
+                        kDesc : @"面试题测试"
+                        },
                       nil];
     }
     return _dataArray;

@@ -18,7 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"%@", NSHomeDirectory());
     // Override point for customization after application launch.
+    [self testSwizzling];
     return YES;
+}
+
+- (void)testSwizzling {
+    NSLog(@"appdelegate invoke %@", self.class);
 }
 
 
